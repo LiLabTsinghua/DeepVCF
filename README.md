@@ -10,7 +10,7 @@ Deep Learning for Metabolic Engineering (DeepME) is a novel data-driven framewor
 ## Requirements
 To run our code, following main dependency packages are needed:
 ```
-python         3.3
+python         3.8
 torch          2.4.0
 tqdm           4.66.5
 numpy          1.24.4
