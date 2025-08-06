@@ -17,7 +17,7 @@ from sampling import NegativeSampling
 from trainer import Trainer
 from data_utils import DeepMEData
 from utils import load_file_path, set_seeds
-from metric import compute_binary_metric
+from metric import compute_binary_metrics
 
 config = {
     'kg_name': 'kg_enhanced',
