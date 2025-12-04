@@ -20,10 +20,10 @@ config = {
     'device': 'cuda:4',
     'seed':53,
 
-    'kg_path': '/home/shengkun/lab_github/DeepVCF/data/KG/ALL/kg_enhanced.txt',
+    'kg_path': '/home/shengkun/lab_github/DeepVCF/data/KG/ECO/kg_enhanced.txt',
     'mechanistic_pretrain_path':'/home/shengkun/lab_github/DeepVCF/data/me_data/train_data/eco_fseof_1_6.txt',
     'train_path':'/home/shengkun/lab_github/DeepVCF/data/me_data/train_data/train.txt',
-    'test_path':'/home/shengkun/lab_github/DeepVCF/data/me_data/cross_species_transfer/cgl/metabolic_test.txt',
+    'test_path':'/home/shengkun/lab_github/DeepVCF/data/me_data/metabolic_gene/combined_test.txt',
 
     'use_drn':True,
     'hidden_dim':300,
