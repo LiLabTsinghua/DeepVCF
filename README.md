@@ -1,6 +1,8 @@
 # AI virtual cell factories for enhanced and genome-wide target prediction
-This repo contains a PyTorch implementation for DeepVCF, which is model proposed in our paper **"AI virtual cell factories for enhanced and genome-wide target prediction"**.
-[Old version](https://github.com/Leafaeolian/DeepME/tree/main)
+This repo contains a reconstructed verison for DeepVCF, which is model proposed in our paper **"AI virtual cell factories for enhanced and genome-wide target prediction"**.
+
+
+[sdd Old version](https://github.com/Leafaeolian/DeepME/tree/main)
 
 
 ## Brief Introduction
