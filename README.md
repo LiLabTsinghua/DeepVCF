@@ -1,14 +1,15 @@
-# Cell factory design integrating knowledge graphs with deep learning
-This repo contains a PyTorch implementation for DeepME, which is model proposed in our paper **"Cell factory design integrating knowledge graphs with deep learning"**.
+# AI virtual cell factories for enhanced and genome-wide target prediction
+This repo contains a PyTorch implementation for DeepVCF, which is model proposed in our paper **"AI virtual cell factories for enhanced and genome-wide target prediction"**.
+[Old version](https://github.com/Leafaeolian/DeepME/tree/main)
 
 
 ## Brief Introduction
-Deep Learning for Metabolic Engineering (DeepME) is a novel data-driven framework that **integrates metabolic and functional knowledge graphs with deep representation learning** to systematically predict genome-wide engineering targets. DeepME captures system-level gene-metabolite associations, achieves state-of-the-art (SOTA) performance in identifying metabolic genes with improved capacity to discover distal targets, generalizes to non-metabolic and heterologous genes with greater engineering potential, and supports zero- and few-shot learning via transfer learning.
+DeepVCF is AI-driven framework that integrates comprehensive biological knowledge with experimental data to predict engineering targets at a genome-wide scale. By learning system-level relationships between genes and metabolites, DeepVCF extends the scope of traditional metabolic modelling and enables accurate identification of both metabolic and non-metabolic targets. Note DeepME is old name.
 ![](./fig/figure1.jpg)
 
 
 ## Requirements
-To run our code, following main dependency packages are needed:
+To run DeepVCF, following main dependency packages are needed:
 ```
 python         3.8
 torch          2.4.0
@@ -21,79 +22,75 @@ matplotlib     3.7.5
 
 
 ## Data & Code
-We provide necessary data and code for running DeepME in following structure:
+We provide necessary data and code for running DeepVCF in following structure:
 ```
 .
 ├── code
-│   ├── data_utils.py
-│   ├── metric.py
-│   ├── model.py
-│   ├── __pycache__
-│   ├── sampling.py
-│   ├── trainer.py
-│   └── utils.py
+│   └── __pycache__
 ├── data
 │   ├── KG
+│   │   ├── ALL
+│   │   ├── CGL
+│   │   ├── ECO
+│   │   └── SCE
 │   ├── me_data
+│   │   ├── cross_species_transfer
+│   │   │   ├── cgl
+│   │   │   └── sce
+│   │   ├── dataset
+│   │   ├── ffa
+│   │   ├── metabolic_gene
+│   │   ├── non_metabolic_gene
+│   │   └── train_data
+│   │       └── embedding_benchmark
+│   │           ├── amino_acid_hold_out
+│   │           ├── carbohydrate_hold_out
+│   │           ├── cofactors_and_vitamins_hold_out
+│   │           ├── gene_hold_out_1
+│   │           ├── gene_hold_out_2
+│   │           ├── lipid_hold_out
+│   │           ├── metabolite_hold_out
+│   │           ├── nucleotide_hold_out
+│   │           ├── random
+│   │           ├── random_rev
+│   │           └── secondary_metabolites_hold_out
 │   └── other_data
 ├── fig
-│   └── figure1.jpg
-├── pred
-├── README.md
 ├── script
-│   ├── embedding_benchmark.py
-│   ├── finetune_tpn.py
-│   ├── pred.py
-│   ├── pretrain_tpn.py
-│   ├── test_tpn.py
-│   ├── train_kge.py
-│   └── train_tpn.py
 └── trained_model
-    ├── ECO-KG_ECO-Pre-2023
-    ├── ECO-KG-hetero_ECO-Pre-2023
-    ├── embedding_benchmark
-    └── UNI-KG_ECO-Pre-2023
-```
-
-
-## How to use DeepME
-```
-# To make target prediction using trained DeepME using dataset, please run the following script
-python script/pred.py
-```
-```
-# To funetune trained DeepME, please run the following script
-python script/finetune_tpn.py
-```
 
 ```
-# To train new DeepME from scarch, please run the following script
-python script/train_kge.py # knowledge graph embedding
-#python script/pretrain_tpn.py # if data augmentation strategy is used
-python script/train_tpn.py # training target prediction network
-```
-1.Modify the hyperparameters in the relevant files as needed.
+see our paper for details.
 
 
-## How to evaluate DeepME
+## To train new DeepVCF from scarch, please run the following script
 ```
-# To benchmark embedding, please run the following script
-python script/embedding_benchmark.py
+# Modify the hyperparameters if needed.
+python script/train_deepvcf.py
 ```
-```
-# To evaluate trained DeepME based on curacted dataset, please run the following script
-python script/test_tpn.py
-```
-1.If any new dataset is used for evaluation, please place the file in the data/me_data/new_folder/ directory (ensure the format is consistent with existing files). Then, add the corresponding entry in load_file_path() in code/utils.py.
-2.Modify the hyperparameters in the relevant files as needed.
 
 ## Reproduce
+For easily reproduce, we reconstruct the code. This version largely reproduce our paper results (see script/example.ipynb).
+![](./fig/reproduce.png)
+
+
+## Using DeepVCF for real-world genome-scale target prediction
+see script/example.ipynb for more details.
+🔔 NOTE: 
 ```
-# To reproduce external dataset ECO_2023_metabolic, please run the following script:
-python script/test_tpn.py
+1.This version might cause confusion in practical applications by simultaneously prioritizing KO and OE of same gene. (For example, rank one in the top 10, and rank the other in the top 50.)
 ```
-We get report:
-{'auroc': 0.8865737337749375, 'auprc': 0.5968157164588611, 'accuracy': 0.8862144420131292, 'precision': 0.7303370786516854, 'recall': 0.3299492385786802, 'f1_score': 0.45454545454545453, 'mcc': 0.4406539332428559}
+
+## To do list
+- [ ] Add more species KG.
+- [ ] Integrate automated text-mining pepiline.
+- [ ] Add active learning part.
+- [ ] Refine algorithms.
+
+
+## Coopration
+We welcome co-operation on cell factory design alghrithm develpment and real-world applications. If you have any questions or suggestions, please feel free to contact us.
+
 
 ## Contact
-If any files is needed or something wrong with the code, please contact leafaeolian@gmail.com.
+nsk25@mails.tsinghua.edu.cn.
