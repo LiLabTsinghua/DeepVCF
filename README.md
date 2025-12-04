@@ -78,14 +78,16 @@ For easily reproduce, we reconstruct the code. This version largely reproduce ou
 
 ## Using DeepVCF for real-world genome-scale target prediction
 see script/example.ipynb for more details.
+
+
 🔔 NOTE: 
 ```
-1.This version might cause confusion in practical applications by simultaneously prioritizing KO and OE of same gene. (For example, rank one in the top 10, and rank the other in the top 50.)
+1.DeepVCF might cause confusion in practical applications by simultaneously prioritizing KO and OE of same gene. (For example, rank one in the top 10, and rank the other in the top 50.)
 ```
 
 ## To do list
 - [ ] Add more species KG.
-- [ ] Integrate automated text-mining pepiline.
+- [ ] Integrate automated text-mining pipeline.
 - [ ] Add active learning part.
 - [ ] Refine algorithms.
 
