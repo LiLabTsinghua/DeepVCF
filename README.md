@@ -2,7 +2,7 @@
 This repo contains a reconstructed verison for DeepVCF, which is model proposed in our paper **"AI virtual cell factories for enhanced and genome-wide target prediction"**.
 
 
-[sdd Old version](https://github.com/Leafaeolian/DeepME/tree/main)
+[see Old version](https://github.com/Leafaeolian/DeepME/tree/main)
 
 
 ## Brief Introduction
