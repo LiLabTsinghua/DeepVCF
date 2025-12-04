@@ -93,7 +93,7 @@ see script/example.ipynb for more details.
 
 
 ## Coopration
-We welcome co-operation on cell factory design alghrithm develpment and real-world applications. If you have any questions or suggestions, please feel free to contact us.
+We welcome co-operation on cell factory design alghrithm develepment and real-world applications. If you have any questions or suggestions, please feel free to contact us.
 
 
 ## Contact
