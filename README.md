@@ -2,11 +2,11 @@
 This repo contains a reconstructed verison for DeepVCF, which is model proposed in our paper **"AI virtual cell factories for enhanced and genome-wide target prediction"**.
 
 
-[see Old version](https://github.com/Leafaeolian/DeepME/tree/main)
+Note DeepME is old name.([see Old version](https://github.com/Leafaeolian/DeepME/tree/main))
 
 
 ## Brief Introduction
-DeepVCF is AI-driven framework that integrates comprehensive biological knowledge with experimental data to predict engineering targets at a genome-wide scale. By learning system-level relationships between genes and metabolites, DeepVCF extends the scope of traditional metabolic modelling and enables accurate identification of both metabolic and non-metabolic targets. Note DeepME is old name.
+DeepVCF is AI-driven framework that integrates comprehensive biological knowledge with experimental data to predict engineering targets at a genome-wide scale. By learning system-level relationships between genes and metabolites, DeepVCF extends the scope of traditional metabolic modelling and enables accurate identification of both metabolic and non-metabolic targets.
 ![](./fig/figure1.jpg)
 
 
