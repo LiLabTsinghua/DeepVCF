@@ -229,7 +229,7 @@ class DeepVCF_Data:
             if self.ensemble:
                 folds = self.train_val_split(train)
                 data_list = []
-                for i in range(5):
+                for i in range(self.k):
                     train_fold, valid_fold = folds[i]
                     train_edge_index, train_edge_type = self.load_and_index_data(train_fold)
                     valid_edge_index, valid_edge_type = self.load_and_index_data(valid_fold)

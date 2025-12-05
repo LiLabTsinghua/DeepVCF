@@ -47,8 +47,8 @@ config = {
     'tpn_eval_interval':1,
     'tpn_patience':30,
 
-    'model_saved_dir':'../trained_model/Transfer/',
-    'model_name':'DeepVCF_53',
+    'model_saved_dir':'../trained_model/ECO/',
+    'model_name':'DeepVCF_k5_53',
 }
 
 print('-'*100)
@@ -62,19 +62,24 @@ print('-'*100)
 set_seeds(config['seed'])
 
 # load knoweldge
-k_processor = DeepVCF_Knowledge(config['kg_path'], config['train_path'], config['model_saved_dir'],no_inverse_relations=['PPI'])
+k_processor = DeepVCF_Knowledge(config['kg_path'], config['train_path'], config['model_saved_dir'],no_inverse_relations=['PPI'],seed=config['seed'])
 knowledge,coverage = k_processor.process()
 num_nodes, num_edge_type, task_rel = knowledge.num_nodes, knowledge.num_edge_type, knowledge.task_rel.to(config['device'])
 
 # load data
 d1_processor = DeepVCF_Data(config['mechanistic_pretrain_path'], config['test_path'],
                         config['model_saved_dir'],
-                        ensemble=True)
+                        ensemble=True,
+                        k=config['k'],
+                        seed=config['seed'],
+                        )
 pre_data_list = d1_processor.process()
 
 d_processor = DeepVCF_Data(config['train_path'], config['test_path'],
                         config['model_saved_dir'],
                         ensemble=config['ensemble'],
+                        k=config['k'],
+                        seed=config['seed'],
                         )
 true_data_list = d_processor.process()
 
