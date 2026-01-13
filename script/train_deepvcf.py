@@ -15,10 +15,11 @@ from data_utils import DeepVCF_Knowledge, DeepVCF_Data
 from utils import set_seeds
 
 # User Guidelines:
-# 1. Update `config.file_path` to the correct data path on your local machine.
-# 2. Update `config.model_saved_dir` to the desired output directory for saving models.
-# 3. Assign a specific name to `config.model_name` to identify different training runs.
-# 4. If using mechanistic pre-training, enabble model.train_tpn(pre_data_list). Note it will significantly extend the training time due to the massive amount of data.
+# 1. Change `config.kg_path` to the knowledge graph path such as ALL/ECO/SCE/CGL.
+# 2. Change `config.test_path` to the right test path for metabolic/non-metabolic/cross-species prediction.
+# 3. Change `config.model_saved_dir` to the desired output directory for saving models.
+# 4. Assign a specific name to `config.model_name` to identify different training runs.
+# 5. If training DeepVCF_PreFT, enable model.train_tpn(pre_data_list). Note it will significantly extend the training time due to the massive amount of data.
 
 # change config
 #-----------------------------------------------------
@@ -26,10 +27,10 @@ config = {
     'device': 'cuda:4',
     'seed':20260109,
 
-    'kg_path': '/home/shengkun/lab_github/DeepVCF/data/KG/ECO/kg_enhanced.txt',
-    'mechanistic_pretrain_path':'/home/shengkun/lab_github/DeepVCF/data/me_data/train_data/eco_fseof_1_6.txt',
-    'train_path':'/home/shengkun/lab_github/DeepVCF/data/me_data/train_data/train.txt',
-    'test_path':'/home/shengkun/lab_github/DeepVCF/data/me_data/metabolic_gene/combined_test.txt',
+    'kg_path': '../data/KG/ECO/kg_enhanced.txt',
+    'mechanistic_pretrain_path':'../data/me_data/train_data/eco_fseof_1_6.txt',
+    'train_path':'../data/me_data/train_data/train.txt',
+    'test_path':'../data/me_data/metabolic_gene/combined_test.txt',
 
     'use_drn':True,
     'hidden_dim':300,
