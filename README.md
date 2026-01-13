@@ -11,17 +11,16 @@ DeepVCF is AI-driven framework that integrates comprehensive biological knowledg
 
 
 ## Requirements
-To run DeepVCF, following main dependency packages are needed:
+Build the environment using the following commands in few minutes.
+(We have tested that DeepVCF can run on the latest [PyTorch](https://pytorch.org/get-started/locally/).)
 ```
-python         3.8
-torch          2.4.0
-tqdm           4.66.5
-numpy          1.24.4
-pandas         2.1.1
-scikit-learn   1.3.2
-matplotlib     3.7.5
+conda create -n deepvcf python=3.9 -y
+conda activate deepvcf
+pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+pip install torch-geometric
+pip install scikit-learn matplotlib pandas ipykernel 
 ```
-
+(optional)[Mamba](https://mamba.readthedocs.io/en/latest/) can be used for faster package installation.
 
 ## Data & Code
 We provide necessary data and code for running DeepVCF in following structure:
@@ -72,28 +71,34 @@ python script/train_deepvcf.py
 ```
 
 ## Reproduce
-For easily reproduce, we reconstruct the code. This version largely reproduce our paper results (see script/example.ipynb).
+For easily reproduce, we reconstruct the code. This version largely reproduce our paper results (see script/tutorials.ipynb).
 ![](./fig/reproduce.png)
 
 
 ## Using DeepVCF for real-world genome-scale target prediction
-see script/example.ipynb for more details.
+see script/tutorials.ipynb for more details.
 
+🔥 We have successfully applied DeepVCF to the following cases:
+```
+1.FFAs overproduction → 6 new non-metabolic KO targets with 66.7% success rate (paper).
+2.Taurine overproduction → 18 new OE targets with 60.0% success rate (in preparation).
+```
 
 🔔 NOTE: 
 ```
-1.DeepVCF might cause confusion in practical applications by simultaneously prioritizing KO and OE of same gene. (For example, rank one in the top 10, and rank the other in the top 50.)
+1.We recommend to use DeepVCF_PreFT in real-world applications.
+2.DeepVCF/DeepVCF_PreFT might cause confusion in practical applications by simultaneously prioritizing KO and OE of same gene. (For example, rank one in the top 10, and rank the other in the top 50)
 ```
 
 ## To do list
 - [ ] Add more species KG.
 - [ ] Integrate automated text-mining pipeline.
-- [ ] Add active learning part.
+- [ ] Add active learning part→“lab in the Loop”.
 - [ ] Refine algorithms.
 
 
 ## Coopration
-We welcome co-operation on cell factory design alghrithm develepment and real-world applications. If you have any questions or suggestions, please feel free to contact us.
+We welcome co-operation on cell factory design alghrithm development and real-world applications. If you have any questions or suggestions, please feel free to contact us.
 
 
 ## Contact

@@ -14,11 +14,17 @@ from model import DeepVCF_Model
 from data_utils import DeepVCF_Knowledge, DeepVCF_Data
 from utils import set_seeds
 
+# User Guidelines:
+# 1. Update `config.file_path` to the correct data path on your local machine.
+# 2. Update `config.model_saved_dir` to the desired output directory for saving models.
+# 3. Assign a specific name to `config.model_name` to identify different training runs.
+# 4. If using mechanistic pre-training, enabble model.train_tpn(pre_data_list). Note it will significantly extend the training time due to the massive amount of data.
+
 # change config
 #-----------------------------------------------------
 config = {
     'device': 'cuda:4',
-    'seed':53,
+    'seed':20260109,
 
     'kg_path': '/home/shengkun/lab_github/DeepVCF/data/KG/ECO/kg_enhanced.txt',
     'mechanistic_pretrain_path':'/home/shengkun/lab_github/DeepVCF/data/me_data/train_data/eco_fseof_1_6.txt',
@@ -37,7 +43,7 @@ config = {
     'drn_num_neg':100,
 
     'ensemble':True,
-    'k':5,
+    'k':10,
     'hidden_channels':300,
     'dropout':0.1,
     'tpn_lr':5e-5,
@@ -47,8 +53,8 @@ config = {
     'tpn_eval_interval':1,
     'tpn_patience':30,
 
-    'model_saved_dir':'../trained_model/ECO/',
-    'model_name':'DeepVCF_k5_53',
+    'model_saved_dir':'../trained_model/DeepVCF_ECO/',
+    'model_name':'DeepVCF_k10_20260109',
 }
 
 print('-'*100)

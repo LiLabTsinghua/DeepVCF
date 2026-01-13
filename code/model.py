@@ -271,7 +271,7 @@ class DeepVCF_Model(torch.nn.Module):
         torch.nn.utils.clip_grad_norm_(self.drn.parameters(), 1.0)
         optimizer.step()
 
-        return float(loss)
+        return float(loss.item())
 
     @torch.no_grad()
     def test_drn(self, val_edge_loader):
@@ -465,7 +465,7 @@ class DeepVCF_Model(torch.nn.Module):
         torch.nn.utils.clip_grad_norm_(tpn.parameters(), 1.0)
         optimizer.step()
 
-        return float(loss)
+        return float(loss.item())
 
     @torch.no_grad()
     def test_tpn(self, data_list, test=False):
