@@ -1,0 +1,12 @@
+Target	Gene source	Negative metabolite	Positive metabolite	Negative score	Positive score	Reaction	Equation	Corr	CovDM_g1p_c
+DM_g1p_c	Native_down	10fthf_c	for_c	-0.0351418941469	0.000136128579083	FTHFLi	atp_c + for_c + thf_c --> 10fthf_c + adp_c + pi_c		0.0
+DM_g1p_c	Native_down	g6p_B_c	glc__D_c	0.0	1.3788900881599999e-14	GLUK	atp_c + glc__D_c --> adp_c + g6p_B_c + h_c		0.0
+DM_g1p_c	Native_down	sbt__D_c	glc__D_c	0.0	1.3788900881599999e-14	SBTR	glc__D_c + h_c + nadph_c --> nadp_c + sbt__D_c		0.0
+DM_g1p_c	Native_down	g6p_c	g1p_c	-2.51190044595	7.3262861783	PGMT	g1p_c <=> g6p_c	0.999996642546	6.15287437724
+DM_g1p_c	Native_down	g6p_c	glc__D_c	-2.51190044595	1.3788900881599999e-14	HEX1	atp_c + glc__D_c --> adp_c + g6p_c + h_c	0.520694723089	1.9500450637e-14
+DM_g1p_c	Native_down	2mbald_c	3mop_c	0.0	0.0684728803621	3MOPDC	3mop_c + h_c --> 2mbald_c + co2_c		0.0
+DM_g1p_c	Native_down	udpg_c	g1p_c	-0.223003619864	7.3262861783	GALUi	g1p_c + h_c + utp_c <=> ppi_c + udpg_c	-0.984224145496	-0.446007239728
+DM_g1p_c	Native_down	glu__L_c	4abut_c	-0.465041695755	0.0144016185145	ABTA	4abut_c + akg_c --> glu__L_c + sucsal_c	0.282644461606	0.0203669642233
+DM_g1p_c	Native_down	succ_c	sucsal_c	-0.00222738298391	0.0144016185145	SSALy	h2o_c + nadp_c + sucsal_c --> 2.0 h_c + nadph_c + succ_c	0.282644461606	0.0203669642233
+DM_g1p_c	Native_down	cit_c	mal__L_c	-0.0427736662449	0.301040997729	CITtap	cit_x + mal__L_c <=> cit_c + mal__L_x		0.0
+DM_g1p_c	Native_down	oaa_c	mal__L_c	-0.0631573901784	0.301040997729	MDH	mal__L_c + nad_c <=> h_c + nadh_c + oaa_c	0.879565306323	0.180739866468

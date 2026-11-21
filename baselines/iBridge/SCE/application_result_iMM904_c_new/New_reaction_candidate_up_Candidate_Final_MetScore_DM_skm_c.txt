@@ -1,0 +1,42 @@
+Target	Gene source	Negative metabolite	Positive metabolite	Negative score	Positive score	Reaction	Equation	Corr	CovDM_skm_c
+DM_skm_c	Universal model	glc__D_c	g6p_c	-0.0153944054861	0.708118269609	GK_adp	adp_c_ + glc__D_c_ --> amp_c_ + g6p_c_ + h_c_		
+DM_skm_c	Universal model	glc__D_c	g6p_c	-0.0153944054861	0.708118269609	r0354	glc__D_c_ + itp_c_ --> g6p_c_ + h_c_ + idp_c_		
+DM_skm_c	Universal model	glc__D_c	g6p_c	-0.0153944054861	0.708118269609	r0355	datp_c_ + glc__D_c_ --> dadp_c_ + g6p_c_ + h_c_		
+DM_skm_c	Universal model	glc__D_c	g6p_c	-0.0153944054861	0.708118269609	HEX1_1	atp_c_ + glc__D_c_ --> adp_c_ + g6p_c_		
+DM_skm_c	Native	aces_c	etoh_c	0.0	3.85009137463	ACHLE3	aces_c + h2o_c --> ac_c + etoh_c + h_c		0.0
+DM_skm_c	Native	pep_c	2dda7p_c	-4.7630736898	2.73598555147	DDPA	e4p_c + h2o_c + pep_c --> 2dda7p_c + pi_c	0.999999918873	3.86926787335
+DM_skm_c	Universal model	pep_c	2dda7p_c	-4.7630736898	2.73598555147	DDPA_1	e4p_c_ + h2o_c_ + pep_c_ --> 2dda7p_c_ + h_c_ + pi_c_		
+DM_skm_c	Universal model	pep_c	dhap_c	-4.7630736898	1.03661419932	DHAPT	dha_c_ + pep_c_ --> dhap_c_ + pyr_c_		
+DM_skm_c	Native	glyald_c	glyc_c	0.0	1.03972381725	ALCD19y	glyald_c + h_c + nadph_c --> glyc_c + nadp_c		0.0
+DM_skm_c	Universal model	glyald_c	glyc_c	0.0	1.03972381725	ALCD19	glyald_c_ + h_c_ + nadh_c_ --> glyc_c_ + nad_c_		
+DM_skm_c	Native	acald_c	etoh_c	-1.07599904486	3.85009137463	ALCD2ir	acald_c + h_c + nadh_c --> etoh_c + nad_c	-0.291804127235	-1.77655260125
+DM_skm_c	Native	f1p_c	dhap_c	0.0	1.03661419932	FBA2	f1p_c <=> dhap_c + glyald_c		0.0
+DM_skm_c	Universal model	thmpp_c	r5p_c	0.0	1.7834026988	S7PTDG	3.0 h_c_ + s7p_c_ + thmpp_c_ --> dhettp_c_ + r5p_c_		
+DM_skm_c	Universal model	g3pi_c	glyc3p_c	0.0	1.03972381725	GPDDA5	g3pi_c_ + h2o_c_ --> glyc3p_c_ + h_c_ + inost_c_		
+DM_skm_c	Universal model	tre6p_c	g6p_c	-0.00312076143587	0.708118269609	FFSD1r	h2o_c_ + tre6p_c_ --> fru_c_ + g6p_c_		
+DM_skm_c	Universal model	tre6p_c	g6p_c	-0.00312076143587	0.708118269609	TRE6PH	h2o_c_ + tre6p_c_ --> g6p_c_ + glc__D_c_		
+DM_skm_c	Universal model	tre6p_c	g6p_c	-0.00312076143587	0.708118269609	T6PGD	pi_c_ + tre6p_c_ --> g1p_B_c_ + g6p_c_		
+DM_skm_c	Native	rib__D_c	r5p_c	0.0	1.7834026988	RBK	atp_c + rib__D_c --> adp_c + h_c + r5p_c		0.0
+DM_skm_c	Universal model	rib__D_c	r5p_c	0.0	1.7834026988	RBK2	atp_c_ + rib__D_c_ --> adp_c_ + r5p_c_		
+DM_skm_c	Universal model	g6p_B_c	6pgl_c	-0.0188542191672	0.559239504157	G6PBDH	g6p_B_c_ + nadp_c_ --> 6pgl_c_ + h_c_ + nadph_c_		
+DM_skm_c	Native	g3p_c	e4p_c	-3.13777024475	3.48979241902	TALA	g3p_c + s7p_c <=> e4p_c + f6p_c	0.999278163649	1.57156040535
+DM_skm_c	Universal model	spmd_c	ptrc_c	-0.121448096902	0.928950454778	SDOOR_c	h2o_c_ + o2_c_ + spmd_c_ --> bamppald_c_ + h2o2_c_ + ptrc_c_		
+DM_skm_c	Native	s17bp_c	e4p_c	0.0	3.48979241902	FBA3	s17bp_c <=> dhap_c + e4p_c		0.0
+DM_skm_c	Universal model	s17bp_c	s7p_c	0.0	0.907340823077	SBP	h2o_c_ + s17bp_c_ --> pi_c_ + s7p_c_		
+DM_skm_c	Native	s17bp_c	dhap_c	0.0	1.03661419932	FBA3	s17bp_c <=> dhap_c + e4p_c		0.0
+DM_skm_c	Universal model	accoa_c	etoh_c	-0.0398819997293	3.85009137463	ADHEr	accoa_c_ + 2.0 h_c_ + 2.0 nadh_c_ --> coa_c_ + etoh_c_ + 2.0 nad_c_		
+DM_skm_c	Native	fdp_c	dhap_c	-0.756289949861	1.03661419932	FBA	fdp_c <=> dhap_c + g3p_c	-0.997914229492	-1.06955550418
+DM_skm_c	Native	xylu__D_c	xu5p__D_c	0.0	2.16321039385	XYLK	atp_c + xylu__D_c --> adp_c + h_c + xu5p__D_c		0.0
+DM_skm_c	Native	r1p_c	r5p_c	0.0	1.7834026988	PPM	r1p_c <=> r5p_c		0.0
+DM_skm_c	Universal model	tagdp__D_c	dhap_c	0.0	1.03661419932	TGBPA	tagdp__D_c_ --> dhap_c_ + g3p_c_		
+DM_skm_c	Native	ggl_c	glyc_c	0.0	1.03972381725	GGLGH	ggl_c + h2o_c <=> gal_c + glyc_c		0.0
+DM_skm_c	Native	g1p_c	g6p_c	-0.385249512808	0.708118269609	PGMT	g1p_c <=> g6p_c	-0.992159631411	-0.324941493989
+DM_skm_c	Native	orn_c	ptrc_c	-0.0195675421324	0.928950454778	ORNDC	h_c + orn_c --> co2_c + ptrc_c		0.0
+DM_skm_c	Native	g3pc_c	glyc3p_c	0.0	1.03972381725	GPDDA1	g3pc_c + h2o_c --> chol_c + glyc3p_c + h_c		0.0
+DM_skm_c	Universal model	g3pc_c	glyc_c	0.0	1.03972381725	HMR_9805	g3pc_c_ + h2o_c_ --> cholp_c_ + glyc_c_ + h_c_		
+DM_skm_c	Universal model	adprib_c	r5p_c	0.0	1.7834026988	ADPRDP_1	adprib_c_ + h2o_c_ --> amp_c_ + r5p_c_		
+DM_skm_c	Universal model	adprib_c	r5p_c	0.0	1.7834026988	ADPRDP	adprib_c_ + h2o_c_ --> amp_c_ + 2.0 h_c_ + r5p_c_		
+DM_skm_c	Universal model	N1aspmd_c	ptrc_c	0.0	0.928950454778	RE1537C	N1aspmd_c_ + h2o_c_ + o2_c_ --> 3aap_c_ + h2o2_c_ + ptrc_c_		
+DM_skm_c	Universal model	f6p_c	e4p_c	-0.756289949861	3.48979241902	PKETF	f6p_c_ + pi_c_ --> actp_c_ + e4p_c_ + h2o_c_		
+DM_skm_c	Universal model	f6p_c	dha_c	-0.756289949861	1.03972381725	F6PA	f6p_c_ --> dha_c_ + g3p_c_		
+DM_skm_c	Native	glc__D_c	g6p_c	-0.0153944054861	0.708118269609	HEX1	atp_c + glc__D_c --> adp_c + g6p_c + h_c	-0.178973278779	-6.61979440347e-15
