@@ -1,0 +1,498 @@
+Target	Gene source	Negative metabolite	Positive metabolite	Negative score	Positive score	Reaction	Equation	Corr	Cov
+DM_wco_c	Universal model	hdcea_c	accoa_c	0.0	0.590740577761	FAO11	atp_c_ + 8.0 coa_c_ + 6.0 fad_c_ + 7.0 h2o_c_ + hdcea_c_ + 7.0 nad_c_ --> 8.0 accoa_c_ + amp_c_ + 6.0 fadh2_c_ + 7.0 h_c_ + 7.0 nadh_c_ + ppi_c_	NA	NA
+DM_wco_c	Universal model	fdxo_42_c	ac_c	0.0	0.559489578037	ACAFDOR	acald_c_ + fdxo_42_c_ + h2o_c_ --> ac_c_ + fdxr_42_c_ + 3.0 h_c_	NA	NA
+DM_wco_c	Universal model	fdxo_42_c	accoa_c	0.0	0.590740577761	POR	coa_c_ + fdxo_42_c_ + pyr_c_ --> accoa_c_ + co2_c_ + fdxr_42_c_ + h_c_	NA	NA
+DM_wco_c	Native	pphn_c	akg_c	-0.0217216907762	0.529545111992	AROAT	glu__L_c + h_c + pphn_c <=> Largn_c + akg_c	nan	0.0
+DM_wco_c	Universal model	hom__L_c	ser__L_c	-0.0162595003512	0.63107843357	STPT1	hom__L_c_ + pser__L_c_ --> phom_c_ + ser__L_c_	NA	NA
+DM_wco_c	Universal model	forglu_c	glu__L_c	0.0	0.901146346509	GluForTx	forglu_c_ + h_c_ + thf_c_ --> 5forthf_c_ + glu__L_c_	NA	NA
+DM_wco_c	Universal model	forglu_c	glu__L_c	0.0	0.901146346509	FGLU	forglu_c_ + h2o_c_ + h_c_ --> frmd_c_ + glu__L_c_	NA	NA
+DM_wco_c	Universal model	forglu_c	glu__L_c	0.0	0.901146346509	FGLU_1	forglu_c_ + h2o_c_ --> frmd_c_ + glu__L_c_	NA	NA
+DM_wco_c	Universal model	34hpp_c	akg_c	0.0	0.529545111992	TYRTAi	34hpp_c_ + glu__L_c_ --> akg_c_ + tyr__L_c_	NA	NA
+DM_wco_c	Native	Nforglu_c	glu__L_c	0.0	0.901146346509	NFORGLUAH2	Nforglu_c + h2o_c --> for_c + glu__L_c	nan	0.0
+DM_wco_c	Universal model	Nforglu_c	glu__L_c	0.0	0.901146346509	NFORGLUAH	Nforglu_c_ + h2o_c_ --> for_c_ + glu__L_c_ + 2.0 h_c_	NA	NA
+DM_wco_c	Native	3ohd710coa_c	accoa_c	0.0	0.590740577761	KAT30	3ohd710coa_c + coa_c --> accoa_c + td_5_8_coa_c	nan	0.0
+DM_wco_c	Universal model	fald_c	mlthf_c	-4.44150690711e-05	0.483925971714	FldAct	fald_c_ + thf_c_ --> h2o_c_ + mlthf_c_	NA	NA
+DM_wco_c	Native	3olnlccoa_c	accoa_c	0.0	0.590740577761	KAT29	3olnlccoa_c + coa_c --> accoa_c + hd_7_10_coa_c	nan	0.0
+DM_wco_c	Universal model	met__L_c	ala__L_c	-0.0667559815963	0.558332447708	METTRANSc	met__L_c_ + pyr_c_ --> 4mtob_c_ + ala__L_c_	NA	NA
+DM_wco_c	Native	ggaptn_c	glu__L_c	0.0	0.901146346509	GG15DAPAH	ggaptn_c + h2o_c --> 5aptn_c + glu__L_c	nan	0.0
+DM_wco_c	Universal model	chol_c	ser__L_c	0.0	0.63107843357	PSSA1_hs_18_2_18_2	chol_c_ + ps_hs_18_2_18_2_c_ --> pchol_hs_18_2_18_2_c_ + ser__L_c_	NA	NA
+DM_wco_c	Universal model	chol_c	ser__L_c	0.0	0.63107843357	PSSA1_hs_18_1_20_4	chol_c_ + ps_hs_18_1_20_4_c_ --> pchol_hs_18_1_20_4_c_ + ser__L_c_	NA	NA
+DM_wco_c	Universal model	chol_c	ser__L_c	0.0	0.63107843357	PSSA1_hs_18_1_18_2	chol_c_ + ps_hs_18_1_18_2_c_ --> pchol_hs_18_1_18_2_c_ + ser__L_c_	NA	NA
+DM_wco_c	Universal model	chol_c	ser__L_c	0.0	0.63107843357	PSSA1_hs_18_0_18_0	chol_c_ + ps_hs_18_0_18_0_c_ --> pchol_hs_18_0_18_0_c_ + ser__L_c_	NA	NA
+DM_wco_c	Universal model	chol_c	ser__L_c	0.0	0.63107843357	PSSA1_hs_16_0_20_4	chol_c_ + ps_hs_16_0_20_4_c_ --> pchol_hs_16_0_20_4_c_ + ser__L_c_	NA	NA
+DM_wco_c	Universal model	chol_c	ser__L_c	0.0	0.63107843357	PSSA1_hs_20_4_20_4	chol_c_ + ps_hs_20_4_20_4_c_ --> pchol_hs_20_4_20_4_c_ + ser__L_c_	NA	NA
+DM_wco_c	Universal model	chol_c	ser__L_c	0.0	0.63107843357	PSSA1_hs_18_2_20_4	chol_c_ + ps_hs_18_2_20_4_c_ --> pchol_hs_18_2_20_4_c_ + ser__L_c_	NA	NA
+DM_wco_c	Universal model	chol_c	ser__L_c	0.0	0.63107843357	PSSA1_hs_16_0_16_0	chol_c_ + ps_hs_16_0_16_0_c_ --> pchol_hs_16_0_16_0_c_ + ser__L_c_	NA	NA
+DM_wco_c	Universal model	chol_c	ser__L_c	0.0	0.63107843357	PSSA1_hs_18_1_18_1	chol_c_ + ps_hs_18_1_18_1_c_ --> pchol_hs_18_1_18_1_c_ + ser__L_c_	NA	NA
+DM_wco_c	Universal model	chol_c	ser__L_c	0.0	0.63107843357	PSSA1_hs_18_0_20_4	chol_c_ + ps_hs_18_0_20_4_c_ --> pchol_hs_18_0_20_4_c_ + ser__L_c_	NA	NA
+DM_wco_c	Universal model	chol_c	ser__L_c	0.0	0.63107843357	PSSA1_hs_18_0_18_2	chol_c_ + ps_hs_18_0_18_2_c_ --> pchol_hs_18_0_18_2_c_ + ser__L_c_	NA	NA
+DM_wco_c	Universal model	chol_c	ser__L_c	0.0	0.63107843357	PSSA1_hs_18_0_18_1	chol_c_ + ps_hs_18_0_18_1_c_ --> pchol_hs_18_0_18_1_c_ + ser__L_c_	NA	NA
+DM_wco_c	Universal model	chol_c	ser__L_c	0.0	0.63107843357	PSSA1_hs_16_0_18_2	chol_c_ + ps_hs_16_0_18_2_c_ --> pchol_hs_16_0_18_2_c_ + ser__L_c_	NA	NA
+DM_wco_c	Universal model	chol_c	ser__L_c	0.0	0.63107843357	PSSA1_hs_16_0_18_1	chol_c_ + ps_hs_16_0_18_1_c_ --> pchol_hs_16_0_18_1_c_ + ser__L_c_	NA	NA
+DM_wco_c	Universal model	chol_c	ser__L_c	0.0	0.63107843357	PSSA1_hs_16_0_18_0	chol_c_ + ps_hs_16_0_18_0_c_ --> pchol_hs_16_0_18_0_c_ + ser__L_c_	NA	NA
+DM_wco_c	Native	24dab_c	glu__L_c	-2.9610046053e-05	0.901146346509	DABAAT2	24dab_c + akg_c + h_c <=> aspsa_c + glu__L_c	-0.999230103561	-2.56430520879e-05
+DM_wco_c	Universal model	24dab_c	glu__L_c	-2.9610046053e-05	0.901146346509	DABAAT	24dab_c_ + akg_c_ + 2.0 h_c_ --> aspsa_c_ + glu__L_c_	NA	NA
+DM_wco_c	Universal model	cyan_c	pyr_c	0.0	0.228932965515	MCPST_c	cyan_c_ + mercppyr_c_ --> pyr_c_ + tcynt_c_	NA	NA
+DM_wco_c	Universal model	cyan_c	pyr_c	0.0	0.228932965515	MCPST	cyan_c_ + mercppyr_c_ --> h_c_ + pyr_c_ + tcynt_c_	NA	NA
+DM_wco_c	Universal model	pg161_c	glyc_c	-0.057847430649	0.0892723213743	CLPNS161	2.0 pg161_c_ --> clpn161_c_ + glyc_c_	NA	NA
+DM_wco_c	Native	3oodecoa_c	accoa_c	0.0	0.590740577761	KAT24	3oodecoa_c + coa_c --> accoa_c + hdd7coa_c	nan	0.0
+DM_wco_c	Native	glu__D_c	glu__L_c	-0.00352186933356	0.901146346509	GLUR	glu__D_c <=> glu__L_c	-0.999230103574	-0.00305002831167
+DM_wco_c	Native	glyser_c	ser__L_c	0.0	0.63107843357	AMPTASEGS	glyser_c + h2o_c --> gly_c + ser__L_c	nan	0.0
+DM_wco_c	Native	glyser_c	gly_c	0.0	0.313447774173	AMPTASEGS	glyser_c + h2o_c --> gly_c + ser__L_c	nan	0.0
+DM_wco_c	Native	argsuc_c	fum_c	-0.0288045396293	0.636825564873	ARGSL	argsuc_c <=> arg__L_c + fum_c	-0.999230103574	-0.0407357706017
+DM_wco_c	Universal model	nicrnt_c	prpp_c	-0.000165909204203	0.247043697594	NAMPRT	nicrnt_c_ + ppi_c_ --> h_c_ + nicnt_c_ + prpp_c_	NA	NA
+DM_wco_c	Universal model	4hbz_c	succ_c	-1.81323760196e-05	0.562176810301	SUCBZT2	4hbz_c_ + succoa_c_ --> 4hbzcoa_c_ + succ_c_	NA	NA
+DM_wco_c	Universal model	4mop_c	akg_c	-0.00124504713384	0.529545111992	LEUTAi	4mop_c_ + glu__L_c_ --> akg_c_ + leu__L_c_	NA	NA
+DM_wco_c	Native	3odd5coa_c	accoa_c	0.0	0.590740577761	KAT26	3odd5coa_c + coa_c --> accoa_c + dded3coa_c	nan	0.0
+DM_wco_c	Native	3otdccoa_c	accoa_c	0.0	0.590740577761	KAT22	3otdccoa_c + coa_c --> accoa_c + ddecoa_c	nan	0.0
+DM_wco_c	Native	3ohpcoa_c	accoa_c	0.0	0.590740577761	KAT10	3ohpcoa_c + coa_c --> accoa_c + ptcoa_c	nan	0.0
+DM_wco_c	Native	ala__D_c	pyr_c	-0.00180835893577	0.228932965515	DAAD	ala__D_c + fad_c + h2o_c --> fadh2_c + nh4_c + pyr_c	nan	0.0
+DM_wco_c	Universal model	ala__D_c	pyr_c	-0.00180835893577	0.228932965515	ALATA_D2	ala__D_c_ + pydx5p_c_ --> pyam5p_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	ala__D_c	pyr_c	-0.00180835893577	0.228932965515	ALATA_D	akg_c_ + ala__D_c_ --> glu__D_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	ala__D_c	pyr_c	-0.00180835893577	0.228932965515	DALAOX	ala__D_c_ + h2o_c_ + o2_c_ --> h2o2_c_ + nh4_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	alaala_c	ala__L_c	-0.002156695702	0.558332447708	ALAALACNc	alaala_c_ + h2o_c_ --> 2.0 ala__L_c_	NA	NA
+DM_wco_c	Native	cyst__L_c	cys__L_c	0.0	0.56129142856	CYSTGL	cyst__L_c + h2o_c --> 2obut_c + cys__L_c + nh4_c	nan	0.0
+DM_wco_c	Native	cyst__L_c	pyr_c	0.0	0.228932965515	CYSTL	cyst__L_c + h2o_c --> hcys__L_c + nh4_c + pyr_c	nan	0.0
+DM_wco_c	Native	ad_c	ac_c	0.0	0.559489578037	AMID4	ad_c + h2o_c --> ac_c + nh4_c	nan	0.0
+DM_wco_c	Universal model	ad_c	ac_c	0.0	0.559489578037	AMID_1	ad_c_ + h2o_c_ --> ac_c_ + h_c_ + nh4_c_	NA	NA
+DM_wco_c	Native	3ononacoa_c	accoa_c	0.0	0.590740577761	KAT11	3ononacoa_c + coa_c --> accoa_c + hptcoa_c	nan	0.0
+DM_wco_c	Native	5mthf_c	thf_c	-0.0748117066577	0.385914048371	METS	5mthf_c + hcys__L_c --> h_c + met__L_c + thf_c	-0.999230103574	-0.0145864119771
+DM_wco_c	Universal model	5mthf_c	thf_c	-0.0748117066577	0.385914048371	METS_1	5mthf_c_ + hcys__L_c_ --> met__L_c_ + thf_c_	NA	NA
+DM_wco_c	Universal model	5mthf_c	thf_c	-0.0748117066577	0.385914048371	METR	5mthf_c_ + cfesp_c_ --> mecfsp_c_ + thf_c_	NA	NA
+DM_wco_c	Universal model	5mthf_c	thf_c	-0.0748117066577	0.385914048371	MHFMT	5mthf_c_ + fes_c_ + h_c_ --> fesm_c_ + thf_c_	NA	NA
+DM_wco_c	Universal model	5mthf_c	mlthf_c	-0.0748117066577	0.483925971714	DHPR2	5mthf_c_ + dhbpt_c_ --> h_c_ + mlthf_c_ + thbpt_c_	NA	NA
+DM_wco_c	Universal model	5dh4dglc_c	pyr_c	0.0	0.228932965515	GLCRAL	5dh4dglc_c_ --> 2h3oppan_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	5dh4dglc_c	2h3oppan_c	0.0	0.0896883653938	GLCRAL	5dh4dglc_c_ --> 2h3oppan_c_ + pyr_c_	NA	NA
+DM_wco_c	Native	metsox_R__L_c	trdox_c	0.0	0.54214933126	METSOXR2	metsox_R__L_c + trdrd_c --> h2o_c + met__L_c + trdox_c	nan	0.0
+DM_wco_c	Universal model	3mop_c	akg_c	0.0	0.529545111992	ILETA2	3mop_c_ + glu__L_c_ --> akg_c_ + ile__L_c_	NA	NA
+DM_wco_c	Universal model	hxa_c	ac_c	0.0	0.559489578037	HXCT	accoa_c_ + hxa_c_ --> ac_c_ + hxcoa_c_	NA	NA
+DM_wco_c	Native	glymet_c	gly_c	0.0	0.313447774173	AMPTASEGM	glymet_c + h2o_c --> gly_c + met__L_c	nan	0.0
+DM_wco_c	Universal model	ptcoa_c	accoa_c	0.0	0.590740577761	FAD_27	coa_c_ + fad_c_ + nad_c_ + ptcoa_c_ --> accoa_c_ + fadh2_c_ + nadh_c_ + ppcoa_c_	NA	NA
+DM_wco_c	Native	3ohdd4coa_c	accoa_c	0.0	0.590740577761	KAT28	3ohdd4coa_c + coa_c --> accoa_c + tde_2Z_coa_c	nan	0.0
+DM_wco_c	Native	adprib_c	r5p_c	0.0	0.320380925679	ADPRDP	adprib_c + h2o_c --> amp_c + 2.0 h_c + r5p_c	nan	0.0
+DM_wco_c	Universal model	adprib_c	r5p_c	0.0	0.320380925679	ADPRDP_1	adprib_c_ + h2o_c_ --> amp_c_ + r5p_c_	NA	NA
+DM_wco_c	Universal model	dscl_c	glu__L_c	-2.96100460483e-05	0.901146346509	F430S1	2.0 atp_c_ + dscl_c_ + 2.0 gln__L_c_ + 2.0 h2o_c_ + ni2_c_ --> 2.0 adp_c_ + f430p1_c_ + 2.0 glu__L_c_ + 5.0 h_c_ + 2.0 pi_c_	NA	NA
+DM_wco_c	Universal model	acac_c	ac_c	-0.00124504713384	0.559489578037	ACACCT	acac_c_ + accoa_c_ --> aacoa_c_ + ac_c_	NA	NA
+DM_wco_c	Native	acac_c	succ_c	-0.00124504713384	0.562176810301	OCOAT1	acac_c + succoa_c --> aacoa_c + succ_c	-0.40618119723	-0.00176076254247
+DM_wco_c	Native	15dap_c	glu__L_c	0.0	0.901146346509	DAPAT	15dap_c + akg_c --> glu__L_c + h2o_c + h_c + pprdn_c	nan	0.0
+DM_wco_c	Native	4h2opntn_c	pyr_c	0.0	0.228932965515	HOPNTAL	4h2opntn_c --> acald_c + pyr_c	nan	0.0
+DM_wco_c	Universal model	pg120_c	glyc_c	0.0	0.0892723213743	CLPNS120	2.0 pg120_c_ --> clpn120_c_ + glyc_c_	NA	NA
+DM_wco_c	Native	scys__L_c	cys__L_c	0.0	0.56129142856	SCYSSL	2.0 gthrd_c + scys__L_c <=> cys__L_c + gthox_c + h_c + so3_c	nan	0.0
+DM_wco_c	Universal model	asn__L_c	glu__L_c	-0.0813111032269	0.901146346509	ASNTA	akg_c_ + asn__L_c_ --> aksuc_c_ + glu__L_c_	NA	NA
+DM_wco_c	Native	asn__L_c	asp__L_c	-0.0813111032269	0.247542371679	ASNN	asn__L_c + h2o_c --> asp__L_c + nh4_c	nan	0.0
+DM_wco_c	Universal model	asn__L_c	asp__L_c	-0.0813111032269	0.247542371679	ASNN_1	asn__L_c_ + h2o_c_ --> asp__L_c_ + h_c_ + nh3_c_	NA	NA
+DM_wco_c	Native	mettrna_c	thf_c	0.0	0.385914048371	FMETTRS	10fthf_c + mettrna_c --> fmettrna_c + h_c + thf_c	nan	0.0
+DM_wco_c	Universal model	mettrna_c	thf_c	0.0	0.385914048371	FMETTRS_1	10fthf_c_ + mettrna_c_ --> fmettrna_c_ + thf_c_	NA	NA
+DM_wco_c	Native	3ovacccoa_c	accoa_c	0.0	0.590740577761	KAT20	3ovacccoa_c + coa_c --> accoa_c + hdcoa_c	nan	0.0
+DM_wco_c	Native	fe3dcit_c	cit_c	-0.000360072232195	0.33816199665	FE3DCITR	fdxr_42_c + 2.0 fe3dcit_c --> 4.0 cit_c + fdxo_42_c + 2.0 fe2_c	-0.993420998768	-0.000509219034204
+DM_wco_c	Native	fe3dcit_c	cit_c	-0.000360072232195	0.33816199665	FE3DCITR2	fdxr_22_c + fe3dcit_c --> 2.0 cit_c + fdxo_22_c + fe2_c	nan	0.0
+DM_wco_c	Native	fe3dcit_c	cit_c	-0.000360072232195	0.33816199665	FE3DCITR3	2.0 fe3dcit_c + fmnh2_c --> 4.0 cit_c + 2.0 fe2_c + fmn_c + 2.0 h_c	nan	0.0
+DM_wco_c	Native	fe3dcit_c	cit_c	-0.000360072232195	0.33816199665	FE3DCITR4	fe3dcit_c + flxr_c --> 2.0 cit_c + fe2_c + flxso_c	nan	0.0
+DM_wco_c	Universal model	fe3dcit_c	cit_c	-0.000360072232195	0.33816199665	FE3DCITR5	2.0 fe3dcit_c_ + nadph_c_ --> 4.0 cit_c_ + 2.0 fe2_c_ + h_c_ + nadp_c_	NA	NA
+DM_wco_c	Native	prlp_c	glu__L_c	-0.0102686979155	0.901146346509	IG3PS	gln__L_c + prlp_c --> aicar_c + eig3p_c + glu__L_c + h_c	-0.999230103574	-0.01452213186
+DM_wco_c	Universal model	prlp_c	glu__L_c	-0.0102686979155	0.901146346509	IG3PS_1	gln__L_c_ + prlp_c_ --> aicar_c_ + eig3p_c_ + glu__L_c_ + 2.0 h_c_	NA	NA
+DM_wco_c	Native	prlp_c	aicar_c	-0.0102686979155	0.236793132054	IG3PS	gln__L_c + prlp_c --> aicar_c + eig3p_c + glu__L_c + h_c	-0.999230103574	-0.01452213186
+DM_wco_c	Universal model	prlp_c	aicar_c	-0.0102686979155	0.236793132054	IG3PS_1	gln__L_c_ + prlp_c_ --> aicar_c_ + eig3p_c_ + glu__L_c_ + 2.0 h_c_	NA	NA
+DM_wco_c	Native	glutrna_gln_c	glu__L_c	0.0	0.901146346509	GLNTRAT	atp_c + gln__L_c + glutrna_gln_c + h2o_c --> adp_c + glntrna_c + glu__L_c + h_c + pi_c	nan	0.0
+DM_wco_c	Native	taur_c	succ_c	0.0	0.562176810301	TAUDO	akg_c + o2_c + taur_c --> aacald_c + co2_c + h_c + so3_c + succ_c	nan	0.0
+DM_wco_c	Universal model	pdx5p_c	ala__L_c	-1.81323760197e-05	0.558332447708	SELCYSLY2_1	h_c_ + pdx5p_c_ + selcys_c_ --> ala__L_c_ + pydx5p_c_ + seln_c_	NA	NA
+DM_wco_c	Universal model	pdx5p_c	ala__L_c	-1.81323760197e-05	0.558332447708	SELCYSLY2	pdx5p_c_ + selcys_c_ --> ala__L_c_ + h_c_ + pydx5p_c_ + seln_c_	NA	NA
+DM_wco_c	Universal model	ch4s_c	ac_c	0.0	0.559489578037	AHSERL	achms_c_ + ch4s_c_ --> ac_c_ + h_c_ + met__L_c_	NA	NA
+DM_wco_c	Universal model	ch4s_c	succ_c	0.0	0.562176810301	SHSL3	ch4s_c_ + suchms_c_ --> h_c_ + met__L_c_ + succ_c_	NA	NA
+DM_wco_c	Native	gg4abut_c	glu__L_c	0.0	0.901146346509	GGGABAH	gg4abut_c + h2o_c --> 4abut_c + glu__L_c	nan	0.0
+DM_wco_c	Native	3oxoadp_c	succ_c	0.0	0.562176810301	3OADPCOAT	3oxoadp_c + succoa_c --> oxadpcoa_c + succ_c	nan	0.0
+DM_wco_c	Native	3ohodcoa_c	accoa_c	0.0	0.590740577761	ACACT8r	3ohodcoa_c + coa_c --> accoa_c + pmtcoa_c	nan	0.0
+DM_wco_c	Universal model	lys__L_c	glu__L_c	-0.0813111032269	0.901146346509	LAT	akg_c_ + lys__L_c_ --> L2aadp6sa_c_ + glu__L_c_	NA	NA
+DM_wco_c	Native	2pg_c	3pg_c	-0.638667579459	0.827651734181	PGM	2pg_c <=> 3pg_c	-0.731220810938	-0.553102348384
+DM_wco_c	Native	ptrc_c	ala__L_c	-0.0665251041537	0.558332447708	PTRCTA2	ptrc_c + pyr_c --> 4abutn_c + ala__L_c	nan	0.0
+DM_wco_c	Native	ptrc_c	glu__L_c	-0.0665251041537	0.901146346509	PTRCTA	akg_c + ptrc_c --> 4abutn_c + glu__L_c	-0.40618119723	-0.000233595417368
+DM_wco_c	Universal model	ptrc_c	glu__L_c	-0.0665251041537	0.901146346509	PUTAM	akg_c_ + ptrc_c_ --> glu__L_c_ + h2o_c_ + pyrr_c_	NA	NA
+DM_wco_c	Native	skm_c	skm5p_c	-0.0330032823778	0.0330032823778	SHKK	atp_c + skm_c --> adp_c + h_c + skm5p_c	-0.999230103574	-0.0466736895415
+DM_wco_c	Universal model	skm_c	skm5p_c	-0.0330032823778	0.0330032823778	SHKK_1	atp_c_ + skm_c_ --> adp_c_ + skm5p_c_	NA	NA
+DM_wco_c	Universal model	ocdcea_c	accoa_c	0.0	0.590740577761	FAO10	atp_c_ + 9.0 coa_c_ + 7.0 fad_c_ + 8.0 h2o_c_ + 8.0 nad_c_ + ocdcea_c_ --> 9.0 accoa_c_ + amp_c_ + 7.0 fadh2_c_ + 8.0 h_c_ + 8.0 nadh_c_ + ppi_c_	NA	NA
+DM_wco_c	Universal model	succoa_c	accoa_c	-0.0702695602835	0.590740577761	SUCOAACTr	ac_c_ + succoa_c_ --> accoa_c_ + succ_c_	NA	NA
+DM_wco_c	Native	succoa_c	succ_c	-0.0702695602835	0.562176810301	OCOAT1	acac_c + succoa_c --> aacoa_c + succ_c	-0.40618119723	-0.00176076254247
+DM_wco_c	Native	succoa_c	succ_c	-0.0702695602835	0.562176810301	OCOAT4	dhcrn_c + succoa_c --> dhcrncoa_c + succ_c	nan	0.0
+DM_wco_c	Native	succoa_c	succ_c	-0.0702695602835	0.562176810301	3OADPCOAT	3oxoadp_c + succoa_c --> oxadpcoa_c + succ_c	nan	0.0
+DM_wco_c	Universal model	succoa_c	succ_c	-0.0702695602835	0.562176810301	BZSCT	bzsucc_c_ + succoa_c_ --> bzsuccoa_c_ + succ_c_	NA	NA
+DM_wco_c	Universal model	succoa_c	succ_c	-0.0702695602835	0.562176810301	DLTO	lac__D_c_ + succoa_c_ --> laccoa_c_ + succ_c_	NA	NA
+DM_wco_c	Universal model	succoa_c	succ_c	-0.0702695602835	0.562176810301	OCOAT2r	3mb_c_ + succoa_c_ --> ivcoa_c_ + succ_c_	NA	NA
+DM_wco_c	Universal model	succoa_c	succ_c	-0.0702695602835	0.562176810301	OCOAT3r	ghb_c_ + succoa_c_ --> 4hbutcoa_c_ + succ_c_	NA	NA
+DM_wco_c	Universal model	succoa_c	succ_c	-0.0702695602835	0.562176810301	SUCBZT1	bz_c_ + 4.0 h_c_ + succoa_c_ --> benzcoa_c_ + succ_c_	NA	NA
+DM_wco_c	Universal model	succoa_c	succ_c	-0.0702695602835	0.562176810301	SUCOAACTr	ac_c_ + succoa_c_ --> accoa_c_ + succ_c_	NA	NA
+DM_wco_c	Universal model	succoa_c	succ_c	-0.0702695602835	0.562176810301	SUCBZT2	4hbz_c_ + succoa_c_ --> 4hbzcoa_c_ + succ_c_	NA	NA
+DM_wco_c	Universal model	succoa_c	akg_c	-0.0702695602835	0.529545111992	KGD2	co2_c_ + 2.0 fdxrd_c_ + h_c_ + succoa_c_ --> akg_c_ + coa_c_ + 2.0 fdxox_c_	NA	NA
+DM_wco_c	Native	2ddg6p_c	pyr_c	-0.176945125152	0.228932965515	EDA	2ddg6p_c --> g3p_c + pyr_c	-0.995155657139	-0.250238195786
+DM_wco_c	Native	1pyr5c_c	glu__L_c	-0.0185464781818	0.901146346509	P5CD	1pyr5c_c + 2.0 h2o_c + nad_c --> glu__L_c + h_c + nadh_c	-0.40618119723	-0.00184854227486
+DM_wco_c	Universal model	1pyr5c_c	glu__L_c	-0.0185464781818	0.901146346509	PYR5CD2	1pyr5c_c_ + 2.0 h2o_c_ + nadp_c_ --> glu__L_c_ + h_c_ + nadh_c_	NA	NA
+DM_wco_c	Universal model	xu5p__D_c	pyr_c	-0.0161455257175	0.228932965515	THZPSN1_SC	achms_c_ + cys__L_c_ + gly_c_ + h_c_ + xu5p__D_c_ --> 4abut_c_ + 4mpetz_c_ + ac_c_ + co2_c_ + 3.0 h2o_c_ + nh4_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	xu5p__D_c	ac_c	-0.0161455257175	0.559489578037	THZPSN1_SC	achms_c_ + cys__L_c_ + gly_c_ + h_c_ + xu5p__D_c_ --> 4abut_c_ + 4mpetz_c_ + ac_c_ + co2_c_ + 3.0 h2o_c_ + nh4_c_ + pyr_c_	NA	NA
+DM_wco_c	Native	progly_c	gly_c	0.0	0.313447774173	AMPTASEPG	h2o_c + progly_c --> gly_c + pro__L_c	nan	0.0
+DM_wco_c	Universal model	hdcoa_c	accoa_c	-2.38556736654e-05	0.590740577761	FAD_15	coa_c_ + fad_c_ + hdcoa_c_ + nad_c_ --> accoa_c_ + c5tetdcoa_c_ + fadh2_c_ + nadh_c_	NA	NA
+DM_wco_c	Universal model	ocdca_c	accoa_c	0.0	0.590740577761	FAO3	atp_c_ + 9.0 coa_c_ + 8.0 fad_c_ + 8.0 h2o_c_ + 8.0 nad_c_ + ocdca_c_ --> 9.0 accoa_c_ + amp_c_ + 8.0 fadh2_c_ + 8.0 h_c_ + 8.0 nadh_c_ + ppi_c_	NA	NA
+DM_wco_c	Native	hpyr_c	2h3oppan_c	0.0	0.0896883653938	HPYRI	hpyr_c <=> 2h3oppan_c	nan	0.0
+DM_wco_c	Native	pre5_c	ac_c	-1.81323760197e-05	0.559489578037	R05219	amet_c + h2o_c + pre5_c --> ac_c + ahcys_c + h_c + pre6a_c	-0.999230103574	-2.56430520851e-05
+DM_wco_c	Native	3opnonacoa_c	accoa_c	0.0	0.590740577761	KAT13	3opnonacoa_c + coa_c --> accoa_c + phpcoa_c	nan	0.0
+DM_wco_c	Native	glcn_c	6pgc_c	0.0	0.193751508179	GNK	atp_c + glcn_c --> 6pgc_c + adp_c + h_c	nan	0.0
+DM_wco_c	Universal model	glcn_c	6pgc_c	0.0	0.193751508179	GNK_1	atp_c_ + glcn_c_ --> 6pgc_c_ + adp_c_	NA	NA
+DM_wco_c	Native	6p2dhglcn_c	6pgc_c	0.0	0.193751508179	PGLCNDH	6p2dhglcn_c + nadph_c <=> 6pgc_c + 2.0 h_c + nadp_c	nan	0.0
+DM_wco_c	Universal model	6p2dhglcn_c	6pgc_c	0.0	0.193751508179	PGLCNDH_1	6p2dhglcn_c_ + h_c_ + nadph_c_ --> 6pgc_c_ + nadp_c_	NA	NA
+DM_wco_c	Universal model	4hthr_c	gly_c	0.0	0.313447774173	4HTHRA	4hthr_c_ --> gcald_c_ + gly_c_	NA	NA
+DM_wco_c	Native	glyc__R_c	3pg_c	0.0	0.827651734181	GLYCK	atp_c + glyc__R_c --> 3pg_c + adp_c + h_c	nan	0.0
+DM_wco_c	Universal model	glyc__R_c	3pg_c	0.0	0.827651734181	GLYCK_1	atp_c_ + glyc__R_c_ --> 3pg_c_ + adp_c_	NA	NA
+DM_wco_c	Universal model	glutrna_c	glu__L_c	-0.000580236032629	0.901146346509	GLNTRA	atp_c_ + gln__L_c_ + glutrna_c_ + h2o_c_ --> adp_c_ + glntrna_c_ + glu__L_c_ + h_c_ + pi_c_	NA	NA
+DM_wco_c	Native	sucglu_c	glu__L_c	0.0	0.901146346509	SGDS	h2o_c + sucglu_c --> glu__L_c + succ_c	nan	0.0
+DM_wco_c	Native	sucglu_c	succ_c	0.0	0.562176810301	SGDS	h2o_c + sucglu_c --> glu__L_c + succ_c	nan	0.0
+DM_wco_c	Universal model	his__L_c	glu__L_c	-0.0813111032269	0.901146346509	HISD_c	3.0 h2o_c_ + his__L_c_ --> frmd_c_ + glu__L_c_ + nh4_c_	NA	NA
+DM_wco_c	Universal model	f1p_c	dhap_c	0.0	0.0757107208054	FBA2	f1p_c_ --> dhap_c_ + glyald_c_	NA	NA
+DM_wco_c	Universal model	f1p_c	glyald_c	0.0	0.146460487386	FBA2	f1p_c_ --> dhap_c_ + glyald_c_	NA	NA
+DM_wco_c	Universal model	gthox_c	trdox_c	0.0	0.54214933126	TRDR4	gthox_c_ + trdrd_c_ --> 2.0 gthrd_c_ + trdox_c_	NA	NA
+DM_wco_c	Native	aacald_c	gly_c	-0.0277541479784	0.313447774173	ALDD31	aacald_c + h2o_c + nad_c --> gly_c + 2.0 h_c + nadh_c	-0.873860879985	-0.0392502924832
+DM_wco_c	Native	3opbcoa_c	accoa_c	0.0	0.590740577761	KAT18	3opbcoa_c + coa_c --> accoa_c + phaccoa_c	nan	0.0
+DM_wco_c	Native	glyc2p_c	glyc_c	0.0	0.0892723213743	G2PP	glyc2p_c + h2o_c --> glyc_c + pi_c	nan	0.0
+DM_wco_c	Universal model	glyc2p_c	glyc3p_c	0.0	0.0759053057445	GLYC2P3Pc	glyc2p_c_ --> glyc3p_c_	NA	NA
+DM_wco_c	Native	3odd6coa_c	accoa_c	0.0	0.590740577761	KAT32	3odd6coa_c + coa_c --> accoa_c + dec4coa_c	nan	0.0
+DM_wco_c	Native	dhor__S_c	succ_c	-0.0440395803182	0.562176810301	DHORDfum	dhor__S_c + fum_c --> orot_c + succ_c	nan	0.0
+DM_wco_c	Native	alaleu_c	ala__L_c	0.0	0.558332447708	AMPTASEAL	alaleu_c + h2o_c --> ala__L_c + leu__L_c	nan	0.0
+DM_wco_c	Native	f6p_c	glu__L_c	-0.00643463546499	0.901146346509	GF6PTA	f6p_c + gln__L_c --> gam6p_c + glu__L_c	-0.999230103574	-0.00909994874351
+DM_wco_c	Universal model	f6p_c	akg_c	-0.00643463546499	0.529545111992	BIOMASS_Ecoli_core_w_GAM	1.496 3pg_c_ + 3.7478 accoa_c_ + 59.81 atp_c_ + 0.361 e4p_c_ + 0.0709 f6p_c_ + 0.129 g3p_c_ + 0.205 g6p_c_ + 0.2557 gln__L_c_ + 4.9414 glu__L_c_ + 59.81 h2o_c_ + 3.547 nad_c_ + 13.0279 nadph_c_ + 1.7867 oaa_c_ + 0.5191 pep_c_ + 2.8328 pyr_c_ + 0.8977 r5p_c_ --> 59.81 adp_c_ + 4.1182 akg_c_ + 3.7478 coa_c_ + 59.81 h_c_ + 3.547 nadh_c_ + 13.0279 nadp_c_ + 59.81 pi_c_	NA	NA
+DM_wco_c	Native	gudac_c	gly_c	0.0	0.313447774173	GACH	gudac_c + h2o_c --> gly_c + urea_c	nan	0.0
+DM_wco_c	Native	oca_c	pyr_c	0.0	0.228932965515	OCAALD	oca_c --> oaa_c + pyr_c	nan	0.0
+DM_wco_c	Native	oca_c	oaa_c	0.0	0.28130645333	OCAALD	oca_c --> oaa_c + pyr_c	nan	0.0
+DM_wco_c	Universal model	flxso_c	accoa_c	-0.000248649353668	0.590740577761	POR5	coa_c_ + 2.0 flxso_c_ + pyr_c_ --> accoa_c_ + co2_c_ + 2.0 flxr_c_ + h_c_	NA	NA
+DM_wco_c	Native	3opoctacoa_c	accoa_c	0.0	0.590740577761	KAT14	3opoctacoa_c + coa_c --> accoa_c + phxacoa_c	nan	0.0
+DM_wco_c	Universal model	glucys_c	cys__L_c	-1.81323760197e-05	0.56129142856	r0568	glucys_c_ --> 5oxpro_c_ + cys__L_c_	NA	NA
+DM_wco_c	Native	suchms_c	succ_c	0.0	0.562176810301	SHSL1	cys__L_c + suchms_c --> cyst__L_c + h_c + succ_c	nan	0.0
+DM_wco_c	Native	suchms_c	succ_c	0.0	0.562176810301	SHSL2r	h2s_c + suchms_c --> h_c + hcys__L_c + succ_c	nan	0.0
+DM_wco_c	Universal model	suchms_c	succ_c	0.0	0.562176810301	SHSL4r	h2o_c_ + suchms_c_ --> 2obut_c_ + h_c_ + nh4_c_ + succ_c_	NA	NA
+DM_wco_c	Universal model	suchms_c	succ_c	0.0	0.562176810301	SHSL2	h2s_c_ + suchms_c_ --> hcys__L_c_ + succ_c_	NA	NA
+DM_wco_c	Universal model	suchms_c	succ_c	0.0	0.562176810301	SUCHMSSELCYSL	selcys_c_ + suchms_c_ --> selcyst_c_ + succ_c_	NA	NA
+DM_wco_c	Universal model	suchms_c	succ_c	0.0	0.562176810301	SHSL3	ch4s_c_ + suchms_c_ --> h_c_ + met__L_c_ + succ_c_	NA	NA
+DM_wco_c	Universal model	26dap_LL_c	glu__L_c	-0.0168200148136	0.901146346509	LDAPAT	26dap_LL_c_ + akg_c_ --> glu__L_c_ + h2o_c_ + h_c_ + thdp_c_	NA	NA
+DM_wco_c	Native	sl26da_c	glu__L_c	-0.0274669691728	0.901146346509	SDPTA	akg_c + sl26da_c <=> glu__L_c + sl2a6o_c	-0.999230103574	-0.0237870930687
+DM_wco_c	Native	sl26da_c	succ_c	-0.0274669691728	0.562176810301	SDPDS	h2o_c + sl26da_c --> 26dap_LL_c + succ_c	-0.999230103574	-0.0237870930687
+DM_wco_c	Universal model	sl26da_c	akg_c	-0.0274669691728	0.529545111992	SDPTA_2	glu__L_c_ + sl26da_c_ --> akg_c_ + sl2a6o_c_	NA	NA
+DM_wco_c	Universal model	cys__D_c	pyr_c	0.0	0.228932965515	CYSDDS	cys__D_c_ + h2o_c_ --> h2s_c_ + nh4_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	hdca_c	accoa_c	0.0	0.590740577761	FAO2	atp_c_ + 8.0 coa_c_ + 7.0 fad_c_ + 7.0 h2o_c_ + hdca_c_ + 7.0 nad_c_ --> 8.0 accoa_c_ + amp_c_ + 7.0 fadh2_c_ + 7.0 h_c_ + 7.0 nadh_c_ + ppi_c_	NA	NA
+DM_wco_c	Native	4hoxoh_c	pyr_c	0.0	0.228932965515	HOPNTAL2	4hoxoh_c --> ppal_c + pyr_c	nan	0.0
+DM_wco_c	Universal model	pro__L_c	succ_c	-0.0813111032269	0.562176810301	PROAKGOX1	akg_c_ + o2_c_ + pro__L_c_ --> 4hpro_LT_c_ + co2_c_ + succ_c_	NA	NA
+DM_wco_c	Universal model	ttdca_c	accoa_c	0.0	0.590740577761	FAO1	atp_c_ + 7.0 coa_c_ + 6.0 fad_c_ + 6.0 h2o_c_ + 6.0 nad_c_ + ttdca_c_ --> 7.0 accoa_c_ + amp_c_ + 6.0 fadh2_c_ + 6.0 h_c_ + 6.0 nadh_c_ + ppi_c_	NA	NA
+DM_wco_c	Native	3ohdccoa_c	accoa_c	0.0	0.590740577761	KAT21	3ohdccoa_c + coa_c --> accoa_c + tdecoa_c	nan	0.0
+DM_wco_c	Native	rib__D_c	r5p_c	0.0	0.320380925679	RBK	atp_c + rib__D_c --> adp_c + h_c + r5p_c	nan	0.0
+DM_wco_c	Universal model	rib__D_c	r5p_c	0.0	0.320380925679	RBK2	atp_c_ + rib__D_c_ --> adp_c_ + r5p_c_	NA	NA
+DM_wco_c	Native	ohpb_c	akg_c	-1.81323760217e-05	0.529545111992	OHPBAT	glu__L_c + ohpb_c <=> akg_c + phthr_c	-0.999230103561	-2.56430520879e-05
+DM_wco_c	Native	4fumacac_c	fum_c	0.0	0.636825564873	FUMAC	4fumacac_c + h2o_c --> acac_c + fum_c + h_c	nan	0.0
+DM_wco_c	Universal model	acACP_c	ac_c	0.0	0.559489578037	MACPT	acACP_c_ + malon_c_ --> ac_c_ + malACP_c_	NA	NA
+DM_wco_c	Native	u3dcaga_c	ac_c	-0.00141416270732	0.559489578037	UHGADA2_1	h2o_c + u3dcaga_c --> ac_c + u3dcga_c	-0.999230103574	-0.0019999280801
+DM_wco_c	Universal model	glyb_c	trdox_c	0.0	0.54214933126	SR5	glyb_c_ + pi_c_ + trdrd_c_ --> actp_c_ + h2o_c_ + tmam_c_ + trdox_c_	NA	NA
+DM_wco_c	Universal model	e4p_c	akg_c	-0.0273307177772	0.529545111992	BIOMASS_Ecoli_core_w_GAM	1.496 3pg_c_ + 3.7478 accoa_c_ + 59.81 atp_c_ + 0.361 e4p_c_ + 0.0709 f6p_c_ + 0.129 g3p_c_ + 0.205 g6p_c_ + 0.2557 gln__L_c_ + 4.9414 glu__L_c_ + 59.81 h2o_c_ + 3.547 nad_c_ + 13.0279 nadph_c_ + 1.7867 oaa_c_ + 0.5191 pep_c_ + 2.8328 pyr_c_ + 0.8977 r5p_c_ --> 59.81 adp_c_ + 4.1182 akg_c_ + 3.7478 coa_c_ + 59.81 h_c_ + 3.547 nadh_c_ + 13.0279 nadp_c_ + 59.81 pi_c_	NA	NA
+DM_wco_c	Native	phnac_c	ac_c	0.0	0.559489578037	PHNACH	h2o_c + phnac_c --> ac_c + pi_c	nan	0.0
+DM_wco_c	Native	alathr_c	ala__L_c	0.0	0.558332447708	AMPTASEAT	alathr_c + h2o_c --> ala__L_c + thr__L_c	nan	0.0
+DM_wco_c	Native	aac24dab_c	ac_c	0.0	0.559489578037	AAC24DABA	aac24dab_c + h2o_c --> 24dab_c + ac_c + h_c	nan	0.0
+DM_wco_c	Native	3ohdd7coa_c	accoa_c	0.0	0.590740577761	KAT25	3ohdd7coa_c + coa_c --> accoa_c + tded5coa_c	nan	0.0
+DM_wco_c	Universal model	phthr_c	glu__L_c	-1.81323760234e-05	0.901146346509	PHTHAT	akg_c_ + phthr_c_ --> 2o3h4pbut_c_ + glu__L_c_	NA	NA
+DM_wco_c	Native	chor_c	pyr_c	-0.0722872976455	0.228932965515	ANS	chor_c + gln__L_c --> anth_c + glu__L_c + h_c + pyr_c	nan	0.0
+DM_wco_c	Native	chor_c	pyr_c	-0.0722872976455	0.228932965515	ANS2	chor_c + nh4_c --> anth_c + h2o_c + h_c + pyr_c	-0.999230103574	-0.00892240223042
+DM_wco_c	Native	chor_c	pyr_c	-0.0722872976455	0.228932965515	CHRPL	chor_c --> 4hbz_c + pyr_c	nan	0.0
+DM_wco_c	Universal model	chor_c	pyr_c	-0.0722872976455	0.228932965515	SALCS	chor_c_ --> pyr_c_ + salc_c_	NA	NA
+DM_wco_c	Universal model	chor_c	pyr_c	-0.0722872976455	0.228932965515	FUTS	chor_c_ + h_c_ + imp_c_ + pep_c_ --> co2_c_ + fut_c_ + 2.0 pi_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	chor_c	pyr_c	-0.0722872976455	0.228932965515	ANSN	chor_c_ + nh3_c_ --> anth_c_ + h2o_c_ + pyr_c_	NA	NA
+DM_wco_c	Native	chor_c	glu__L_c	-0.0722872976455	0.901146346509	ANS	chor_c + gln__L_c --> anth_c + glu__L_c + h_c + pyr_c	nan	0.0
+DM_wco_c	Native	chor_c	glu__L_c	-0.0722872976455	0.901146346509	ADCS	chor_c + gln__L_c --> 4adcho_c + glu__L_c	-0.999230103574	-0.00010257220834
+DM_wco_c	Native	3oddcoa_c	accoa_c	0.0	0.590740577761	ACACT10	3oddcoa_c + coa_c --> accoa_c + dcacoa_c	nan	0.0
+DM_wco_c	Native	hisgly_c	gly_c	0.0	0.313447774173	AMPTASEHG	h2o_c + hisgly_c --> gly_c + his__L_c	nan	0.0
+DM_wco_c	Universal model	dtbt_c	ala__L_c	-1.81323760197e-05	0.558332447708	BTS2	cys__L_c_ + dtbt_c_ --> ala__L_c_ + btn_c_ + 2.0 h_c_	NA	NA
+DM_wco_c	Universal model	dtbt_c	ala__L_c	-1.81323760197e-05	0.558332447708	BTS6	amet_c_ + cys__L_c_ + dtbt_c_ --> ala__L_c_ + btn_c_ + dad_5_c_ + h_c_ + met__L_c_	NA	NA
+DM_wco_c	Native	g6p_B_c	6pgl_c	0.0	0.0168063830273	G6PBDH	g6p_B_c + nadp_c --> 6pgl_c + h_c + nadph_c	nan	0.0
+DM_wco_c	Universal model	3mob_c	pyr_c	-0.042798874531	0.228932965515	VPAMTr	3mob_c_ + ala__L_c_ --> pyr_c_ + val__L_c_	NA	NA
+DM_wco_c	Native	3mob_c	thf_c	-0.042798874531	0.385914048371	MOHMT	3mob_c + h2o_c + mlthf_c --> 2dhp_c + thf_c	-0.999230103574	-6.61199773402e-05
+DM_wco_c	Universal model	5fthf_c	thf_c	0.0	0.385914048371	GLUFT	5fthf_c_ + glu__L_c_ + h_c_ --> Nforglu_c_ + thf_c_	NA	NA
+DM_wco_c	Universal model	5fthf_c	thf_c	0.0	0.385914048371	HMR_9726	5fthf_c_ + glu__L_c_ --> forglu_c_ + thf_c_	NA	NA
+DM_wco_c	Native	5fthf_c	methf_c	0.0	0.483925971714	FTHFCL	5fthf_c + atp_c --> adp_c + methf_c + pi_c	nan	0.0
+DM_wco_c	Native	5fthf_c	methf_c	0.0	0.483925971714	FOMETRi	5fthf_c + h_c --> h2o_c + methf_c	nan	0.0
+DM_wco_c	Universal model	5fthf_c	methf_c	0.0	0.483925971714	MTAM_1	5fthf_c_ + 2.0 h_c_ --> h2o_c_ + methf_c_	NA	NA
+DM_wco_c	Universal model	5fthf_c	10fthf_c	0.0	0.395138706349	FTHFI	5fthf_c_ + atp_c_ + h2o_c_ --> 10fthf_c_ + adp_c_ + h_c_ + pi_c_	NA	NA
+DM_wco_c	Universal model	5fthf_c	10fthf_c	0.0	0.395138706349	FTHFI_1	5fthf_c_ + atp_c_ + h2o_c_ --> 10fthf_c_ + adp_c_ + pi_c_	NA	NA
+DM_wco_c	Universal model	co_c	accoa_c	0.0	0.590740577761	COMCOA	co_c_ + coa_c_ + fesm_c_ --> accoa_c_ + fes_c_ + 3.0 h_c_	NA	NA
+DM_wco_c	Native	aspsa_c	asp__L_c	-0.0331542308852	0.247542371679	ASPSALy	aspsa_c + h2o_c + nadp_c --> asp__L_c + 2.0 h_c + nadph_c	-0.40618119723	-0.00231374610921
+DM_wco_c	Universal model	fdxr_42_c	accoa_c	-0.000587995492949	0.590740577761	CODH_ACS	co2_c_ + coa_c_ + fdxr_42_c_ + h_c_ + mecfsp_c_ --> accoa_c_ + cfesp_c_ + fdxo_42_c_ + h2o_c_	NA	NA
+DM_wco_c	Universal model	fdxr_42_c	glu__L_c	-0.000587995492949	0.901146346509	GLUSz	akg_c_ + fdxr_42_c_ + gln__L_c_ + 2.0 h_c_ --> fdxo_42_c_ + 2.0 glu__L_c_	NA	NA
+DM_wco_c	Native	fdxr_42_c	cit_c	-0.000587995492949	0.33816199665	FE3DCITR	fdxr_42_c + 2.0 fe3dcit_c --> 4.0 cit_c + fdxo_42_c + 2.0 fe2_c	-0.993420998768	-0.000509219034204
+DM_wco_c	Native	male_c	fum_c	0.0	0.636825564873	MALEI	male_c <=> fum_c	nan	0.0
+DM_wco_c	Universal model	aso4_c	trdox_c	0.0	0.54214933126	ASR2	aso4_c_ + trdrd_c_ --> aso3_c_ + h2o_c_ + trdox_c_	NA	NA
+DM_wco_c	Universal model	glyclt_c	ac_c	-7.69580522629e-05	0.559489578037	GLYFEM	glyclt_c_ + h_c_ --> ac_c_ + co2_c_ + h2o_c_ + succ_c_	NA	NA
+DM_wco_c	Native	glyclt_c	glx_c	-7.69580522629e-05	0.105234937785	GLYCTO1	glyclt_c + o2_c --> glx_c + h2o2_c	-0.993420998768	-0.000108835121244
+DM_wco_c	Universal model	glyclt_c	glx_c	-7.69580522629e-05	0.105234937785	GLYCTO2	glyclt_c_ + q8_c_ --> glx_c_ + q8h2_c_	NA	NA
+DM_wco_c	Universal model	glyclt_c	glx_c	-7.69580522629e-05	0.105234937785	GLYCTO3	glyclt_c_ + mqn8_c_ --> glx_c_ + mql8_c_	NA	NA
+DM_wco_c	Universal model	glyclt_c	glx_c	-7.69580522629e-05	0.105234937785	GLYCTO4	2dmmq8_c_ + glyclt_c_ --> 2dmmql8_c_ + glx_c_	NA	NA
+DM_wco_c	Universal model	glyclt_c	succ_c	-7.69580522629e-05	0.562176810301	GLYFEM	glyclt_c_ + h_c_ --> ac_c_ + co2_c_ + h2o_c_ + succ_c_	NA	NA
+DM_wco_c	Universal model	iasp_c	oaa_c	-0.000185064070946	0.28130645333	ASPOb	h2o_c_ + h_c_ + iasp_c_ --> nh4_c_ + oaa_c_	NA	NA
+DM_wco_c	Native	adcobdam_c	glu__L_c	-1.81323760197e-05	0.901146346509	ADCYRS	adcobdam_c + 4.0 atp_c + 4.0 gln__L_c + 4.0 h2o_c --> adcobhex_c + 4.0 adp_c + 4.0 glu__L_c + 4.0 h_c + 4.0 pi_c	-0.999230103574	-2.56430520851e-05
+DM_wco_c	Native	glutar_c	succ_c	0.0	0.562176810301	GLUTARH	akg_c + glutar_c + o2_c --> S2hglut_c + co2_c + succ_c	nan	0.0
+DM_wco_c	Native	acon_T_c	acon_C_c	0.0	0.33816199665	ACONIs	acon_T_c <=> acon_C_c	nan	0.0
+DM_wco_c	Native	dhcrn_c	succ_c	0.0	0.562176810301	OCOAT4	dhcrn_c + succoa_c --> dhcrncoa_c + succ_c	nan	0.0
+DM_wco_c	Native	cgly_c	cys__L_c	0.0	0.56129142856	AMPTASECG	cgly_c + h2o_c --> cys__L_c + gly_c	nan	0.0
+DM_wco_c	Native	cgly_c	gly_c	0.0	0.313447774173	AMPTASECG	cgly_c + h2o_c --> cys__L_c + gly_c	nan	0.0
+DM_wco_c	Native	glyphe_c	gly_c	0.0	0.313447774173	GLYPHEHYc	glyphe_c + h2o_c --> gly_c + phe__L_c	nan	0.0
+DM_wco_c	Universal model	bz_c	succ_c	0.0	0.562176810301	SUCBZT1	bz_c_ + 4.0 h_c_ + succoa_c_ --> benzcoa_c_ + succ_c_	NA	NA
+DM_wco_c	Native	flxr_c	cit_c	-0.000248649353668	0.33816199665	FE3DCITR4	fe3dcit_c + flxr_c --> 2.0 cit_c + fe2_c + flxso_c	nan	0.0
+DM_wco_c	Native	balagly_c	gly_c	0.0	0.313447774173	DALAGLYD	balagly_c + h2o_c --> ala__D_c + gly_c	nan	0.0
+DM_wco_c	Native	3opdecacoa_c	accoa_c	0.0	0.590740577761	KAT12	3opdecacoa_c + coa_c --> accoa_c + poctacoa_c	nan	0.0
+DM_wco_c	Native	2ameph_c	ala__L_c	0.0	0.558332447708	AEPTA	2ameph_c + pyr_c <=> ala__L_c + pald_c	nan	0.0
+DM_wco_c	Universal model	2ameph_c	ala__L_c	0.0	0.558332447708	AEPPYRTA	2ameph_c_ + pyr_c_ --> Pald_c_ + ala__L_c_	NA	NA
+DM_wco_c	Native	S2hglut_c	akg_c	0.0	0.529545111992	SHGO	S2hglut_c + o2_c --> akg_c + h2o2_c	nan	0.0
+DM_wco_c	Universal model	S2hglut_c	akg_c	0.0	0.529545111992	AHGDx	S2hglut_c_ + nad_c_ --> akg_c_ + h_c_ + nadh_c_	NA	NA
+DM_wco_c	Universal model	octapb_c	ala__L_c	-1.81323760197e-05	0.558332447708	LIPOS2	2.0 amet_c_ + 2.0 cys__L_c_ + 2.0 fdxrd_c_ + octapb_c_ --> 2.0 ala__L_c_ + 2.0 dad_5_c_ + 2.0 fdxox_c_ + lipopb_c_ + 2.0 met__L_c_	NA	NA
+DM_wco_c	Universal model	hcys__L_c	ac_c	-0.0103141508222	0.559489578037	CYSGL	acser_c_ + hcys__L_c_ --> ac_c_ + cyst__L_c_ + h_c_	NA	NA
+DM_wco_c	Native	hcys__L_c	thf_c	-0.0103141508222	0.385914048371	METS	5mthf_c + hcys__L_c --> h_c + met__L_c + thf_c	-0.999230103574	-0.0145864119771
+DM_wco_c	Universal model	hcys__L_c	thf_c	-0.0103141508222	0.385914048371	METS_1	5mthf_c_ + hcys__L_c_ --> met__L_c_ + thf_c_	NA	NA
+DM_wco_c	Native	val__L_c	glu__L_c	-0.0813111032269	0.901146346509	VALTA	akg_c + val__L_c <=> 3mob_c + glu__L_c	0.999230103574	0.0447355117707
+DM_wco_c	Native	3o6athcoa_c	accoa_c	0.0	0.590740577761	KAT19	3o6athcoa_c + coa_c --> 4atbcoa_c + accoa_c	nan	0.0
+DM_wco_c	Native	glu5sa_c	glu__L_c	-0.0227147040355	0.901146346509	PUTA3	glu5sa_c + h2o_c + nad_c --> glu__L_c + 2.0 h_c + nadh_c	nan	0.0
+DM_wco_c	Universal model	pppg9_c	succ_c	-3.62647520393e-05	0.562176810301	PPPGO3	3.0 fum_c_ + pppg9_c_ --> ppp9_c_ + 3.0 succ_c_	NA	NA
+DM_wco_c	Native	alatrp_c	ala__L_c	0.0	0.558332447708	AMPTASEATRP	alatrp_c + h2o_c --> ala__L_c + trp__L_c	nan	0.0
+DM_wco_c	Native	3otdcoa_c	accoa_c	-0.000352729155792	0.590740577761	ACACT9	3otdcoa_c + coa_c --> accoa_c + ddcacoa_c	-0.290129426593	-0.000305472409572
+DM_wco_c	Native	micit_c	pyr_c	0.0	0.228932965515	MCITL2	micit_c <=> pyr_c + succ_c	nan	0.0
+DM_wco_c	Native	micit_c	succ_c	0.0	0.562176810301	MCITL2	micit_c <=> pyr_c + succ_c	nan	0.0
+DM_wco_c	Universal model	ficytc_c	pyr_c	0.0	0.228932965515	L_LACD	2.0 ficytc_c_ + lac__L_c_ --> 2.0 focytc_c_ + pyr_c_	NA	NA
+DM_wco_c	Native	dsbdox_c	trdox_c	0.0	0.54214933126	DSBDR	dsbdox_c + trdrd_c --> dsbdrd_c + trdox_c	nan	0.0
+DM_wco_c	Native	3ohdcoa_c	accoa_c	0.0	0.590740577761	ACACT12	3ohdcoa_c + coa_c --> accoa_c + tdcoa_c	nan	0.0
+DM_wco_c	Native	orot5p_c	prpp_c	-0.0440395803182	0.247043697594	ORPT	orot5p_c + ppi_c <=> orot_c + prpp_c	-0.999234950204	-0.0381393953276
+DM_wco_c	Native	3odcoa_c	accoa_c	0.0	0.590740577761	ACACT13	3odcoa_c + coa_c --> accoa_c + occoa_c	nan	0.0
+DM_wco_c	Universal model	tdcoa_c	accoa_c	0.0	0.590740577761	FAD_8	coa_c_ + fad_c_ + nad_c_ + tdcoa_c_ --> accoa_c_ + dodcoa_c_ + fadh2_c_ + nadh_c_	NA	NA
+DM_wco_c	Universal model	1hdecg3p_c	glyc3p_c	-0.00108891829442	0.0759053057445	HDECH	1hdecg3p_c_ + h2o_c_ --> glyc3p_c_ + 3.0 h_c_ + hdcea_c_	NA	NA
+DM_wco_c	Universal model	cytd_c	r1p_c	0.0	4.96086099121e-05	PYNP1_1	cytd_c_ + h_c_ + pi_c_ --> csn_c_ + r1p_c_	NA	NA
+DM_wco_c	Native	dhcrncoa_c	accoa_c	0.0	0.590740577761	GLYBACT1r	coa_c + dhcrncoa_c <=> accoa_c + glybcoa_c	nan	0.0
+DM_wco_c	Native	5aptn_c	glu__L_c	0.0	0.901146346509	APTNAT	5aptn_c + akg_c <=> glu__L_c + oxptn_c	nan	0.0
+DM_wco_c	Native	lipa_kt_c	succ_c	-0.000707081353662	0.562176810301	LIPAH	2.0 akg_c + lipa_kt_c + 2.0 o2_c --> 2.0 co2_c + lipa_oh_c + 2.0 succ_c	-0.999230103574	-0.00099996404005
+DM_wco_c	Native	alahis_c	ala__L_c	0.0	0.558332447708	AMPTASEAH	alahis_c + h2o_c --> ala__L_c + his__L_c	nan	0.0
+DM_wco_c	Native	amet_c	ac_c	-0.0279942869792	0.559489578037	R05219	amet_c + h2o_c + pre5_c --> ac_c + ahcys_c + h_c + pre6a_c	-0.999230103574	-2.56430520851e-05
+DM_wco_c	Universal model	amet_c	ala__L_c	-0.0279942869792	0.558332447708	BTS6	amet_c_ + cys__L_c_ + dtbt_c_ --> ala__L_c_ + btn_c_ + dad_5_c_ + h_c_ + met__L_c_	NA	NA
+DM_wco_c	Universal model	amet_c	ala__L_c	-0.0279942869792	0.558332447708	THZPSN2	amet_c_ + atp_c_ + cys__L_c_ + dxyl5p_c_ + nadph_c_ + tyr__L_c_ --> 4mpetz_c_ + ala__L_c_ + amp_c_ + co2_c_ + cresol_c_ + dad_5_c_ + 2.0 h2o_c_ + h_c_ + met__L_c_ + nadp_c_ + ppi_c_	NA	NA
+DM_wco_c	Universal model	amet_c	ala__L_c	-0.0279942869792	0.558332447708	LIPOS2	2.0 amet_c_ + 2.0 cys__L_c_ + 2.0 fdxrd_c_ + octapb_c_ --> 2.0 ala__L_c_ + 2.0 dad_5_c_ + 2.0 fdxox_c_ + lipopb_c_ + 2.0 met__L_c_	NA	NA
+DM_wco_c	Native	for_c	fgam_c	-0.000251685391411	0.247043697594	GART	atp_c + for_c + gar_c --> adp_c + fgam_c + h_c + pi_c	-0.337683525251	-0.000151708971278
+DM_wco_c	Universal model	for_c	10fthf_c	-0.000251685391411	0.395138706349	FTHFLi	atp_c_ + for_c_ + thf_c_ --> 10fthf_c_ + adp_c_ + pi_c_	NA	NA
+DM_wco_c	Native	3padsel_c	trdox_c	0.0	0.54214933126	ADSELR	3padsel_c + trdrd_c --> 2.0 h_c + pap_c + slnt_c + trdox_c	nan	0.0
+DM_wco_c	Native	acg5sa_c	ac_c	-0.0317112016894	0.559489578037	NACODA	acg5sa_c + h2o_c --> ac_c + glu5sa_c	nan	0.0
+DM_wco_c	Native	paps_c	trdox_c	0.0	0.54214933126	PAPSR	paps_c + trdrd_c --> 2.0 h_c + pap_c + so3_c + trdox_c	nan	0.0
+DM_wco_c	Native	glygln_c	gln__L_c	0.0	0.534619389245	AMPTASEGGLN	glygln_c + h2o_c --> gln__L_c + gly_c	nan	0.0
+DM_wco_c	Native	glygln_c	gly_c	0.0	0.313447774173	AMPTASEGGLN	glygln_c + h2o_c --> gln__L_c + gly_c	nan	0.0
+DM_wco_c	Native	3ophpcoa_c	accoa_c	0.0	0.590740577761	KAT15	3ophpcoa_c + coa_c --> accoa_c + pptcoa_c	nan	0.0
+DM_wco_c	Universal model	sucsal_c	pyr_c	-0.000165176903675	0.228932965515	SHCHCS	ichor_c_ + sucsal_c_ --> 2shchc_c_ + pyr_c_	NA	NA
+DM_wco_c	Native	sucsal_c	succ_c	-0.000165176903675	0.562176810301	SSALx	h2o_c + nad_c + sucsal_c --> 2.0 h_c + nadh_c + succ_c	nan	0.0
+DM_wco_c	Native	sucsal_c	succ_c	-0.000165176903675	0.562176810301	SSALy	h2o_c + nadp_c + sucsal_c --> 2.0 h_c + nadph_c + succ_c	-0.40618119723	-0.000233595417368
+DM_wco_c	Native	glc__D_c	g6p_c	0.0	0.0251353905284	HEX1	atp_c + glc__D_c --> adp_c + g6p_c + h_c	nan	0.0
+DM_wco_c	Universal model	glc__D_c	g6p_c	0.0	0.0251353905284	GK_adp	adp_c_ + glc__D_c_ --> amp_c_ + g6p_c_ + h_c_	NA	NA
+DM_wco_c	Universal model	glc__D_c	g6p_c	0.0	0.0251353905284	r0354	glc__D_c_ + itp_c_ --> g6p_c_ + h_c_ + idp_c_	NA	NA
+DM_wco_c	Universal model	glc__D_c	g6p_c	0.0	0.0251353905284	r0355	datp_c_ + glc__D_c_ --> dadp_c_ + g6p_c_ + h_c_	NA	NA
+DM_wco_c	Universal model	glc__D_c	g6p_c	0.0	0.0251353905284	HEX1_1	atp_c_ + glc__D_c_ --> adp_c_ + g6p_c_	NA	NA
+DM_wco_c	Universal model	3mb_c	succ_c	0.0	0.562176810301	OCOAT2r	3mb_c_ + succoa_c_ --> ivcoa_c_ + succ_c_	NA	NA
+DM_wco_c	Native	sucorn_c	glu__L_c	0.0	0.901146346509	SOTA	akg_c + sucorn_c --> glu__L_c + sucgsa_c	nan	0.0
+DM_wco_c	Universal model	seln_c	ac_c	0.0	0.559489578037	ACSERL	acser_c_ + seln_c_ --> ac_c_ + 2.0 h_c_ + selcys_c_	NA	NA
+DM_wco_c	Universal model	seln_c	ac_c	0.0	0.559489578037	AHSERL3	acser_c_ + seln_c_ --> ac_c_ + scys__L_c_	NA	NA
+DM_wco_c	Universal model	seln_c	ac_c	0.0	0.559489578037	ACSERL_c	acser_c_ + seln_c_ --> ac_c_ + selcys_c_	NA	NA
+DM_wco_c	Universal model	malcoa_c	accoa_c	-0.172178250225	0.590740577761	MCDC	malcoa_c_ --> accoa_c_ + co2_c_	NA	NA
+DM_wco_c	Universal model	malcoa_c	accoa_c	-0.172178250225	0.590740577761	MCD	h_c_ + malcoa_c_ --> accoa_c_ + co2_c_	NA	NA
+DM_wco_c	Native	3opptcoa_c	accoa_c	0.0	0.590740577761	KAT17	3opptcoa_c + coa_c --> accoa_c + phppcoa_c	nan	0.0
+DM_wco_c	Universal model	actp_c	ac_c	0.0	0.559489578037	ACYP_2	actp_c_ + h2o_c_ --> ac_c_ + h_c_ + pi_c_	NA	NA
+DM_wco_c	Universal model	actp_c	ac_c	0.0	0.559489578037	ACYP_3	actp_c_ + h2o_c_ --> ac_c_ + 2.0 h_c_ + pi_c_	NA	NA
+DM_wco_c	Native	msa_c	accoa_c	-2.85472556737e-06	0.590740577761	MMSAD3	coa_c + msa_c + nad_c --> accoa_c + co2_c + nadh_c	-0.40618119723	-4.03719161423e-06
+DM_wco_c	Universal model	gdpddman_c	akg_c	0.0	0.529545111992	GDPMANDH	gdpddman_c_ + glu__L_c_ --> akg_c_ + gdp3h5a6m36dh2p_c_ + h2o_c_ + h_c_	NA	NA
+DM_wco_c	Universal model	gdpddman_c	akg_c	0.0	0.529545111992	GDPPS	gdpddman_c_ + glu__L_c_ --> akg_c_ + gdpper_c_	NA	NA
+DM_wco_c	Universal model	mal__D_c	pyr_c	0.0	0.228932965515	MALDDH	mal__D_c_ + nad_c_ --> co2_c_ + nadh_c_ + pyr_c_	NA	NA
+DM_wco_c	Native	3ohd58coa_c	accoa_c	0.0	0.590740577761	KAT31	3ohd58coa_c + coa_c --> accoa_c + dd_3_6_coa_c	nan	0.0
+DM_wco_c	Native	g3pe_c	glyc3p_c	0.0	0.0759053057445	GPDDA2	g3pe_c + h2o_c --> etha_c + glyc3p_c + h_c	nan	0.0
+DM_wco_c	Native	cchoxod_c	ac_c	0.0	0.559489578037	HMSH3	cchoxod_c + h2o_c --> ac_c + h_c + op4en_c	nan	0.0
+DM_wco_c	Universal model	xtsn_c	r1p_c	0.0	4.96086099121e-05	PUNP7	pi_c_ + xtsn_c_ --> r1p_c_ + xan_c_	NA	NA
+DM_wco_c	Universal model	xtsn_c	r1p_c	0.0	4.96086099121e-05	PUNP7_1	h_c_ + pi_c_ + xtsn_c_ --> r1p_c_ + xan_c_	NA	NA
+DM_wco_c	Universal model	pydx5p_c	pyr_c	-0.0813111032269	0.228932965515	ALATA_D2	ala__D_c_ + pydx5p_c_ --> pyam5p_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	pydx5p_c	pyr_c	-0.0813111032269	0.228932965515	ALATA_L2	ala__L_c_ + pydx5p_c_ --> pyam5p_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	sl2a6o_c	succ_c	0.0	0.562176810301	SDPDS_2	h2o_c_ + sl2a6o_c_ --> 26dap_LL_c_ + succ_c_	NA	NA
+DM_wco_c	Native	lac__L_c	pyr_c	0.0	0.228932965515	L_LACD2	lac__L_c + q8_c --> pyr_c + q8h2_c	nan	0.0
+DM_wco_c	Universal model	lac__L_c	pyr_c	0.0	0.228932965515	L_LACD3	lac__L_c_ + mqn8_c_ --> mql8_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	lac__L_c	pyr_c	0.0	0.228932965515	LDH_L	lac__L_c_ + nad_c_ --> h_c_ + nadh_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	lac__L_c	pyr_c	0.0	0.228932965515	L_LACD	2.0 ficytc_c_ + lac__L_c_ --> 2.0 focytc_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	lac__L_c	pyr_c	0.0	0.228932965515	L_LACD3_1	lac__L_c_ + mqn7_c_ --> mql7_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	lac__L_c	ac_c	0.0	0.559489578037	LO	lac__L_c_ + o2_c_ --> ac_c_ + co2_c_ + h2o_c_	NA	NA
+DM_wco_c	Native	ggala_B_c	glu__L_c	0.0	0.901146346509	GGDAPAH	ggala_B_c + h2o_c --> ala_B_c + glu__L_c	nan	0.0
+DM_wco_c	Native	3ophxacoa_c	accoa_c	0.0	0.590740577761	KAT16	3ophxacoa_c + coa_c --> accoa_c + pbcoa_c	nan	0.0
+DM_wco_c	Native	phe__L_c	glu__L_c	-0.0790732960208	0.901146346509	PHETA1	akg_c + phe__L_c <=> glu__L_c + phpyr_c	-0.999230103574	-0.0219677012745
+DM_wco_c	Native	adhlam_c	accoa_c	0.0	0.590740577761	PDHbr	adhlam_c + coa_c <=> accoa_c + dhlam_c	nan	0.0
+DM_wco_c	Universal model	pg180_c	glyc_c	-0.0664157316277	0.0892723213743	CLPNS180	2.0 pg180_c_ --> clpn180_c_ + glyc_c_	NA	NA
+DM_wco_c	Native	coucoa_c	accoa_c	0.0	0.590740577761	COCOAHA	coucoa_c + h2o_c --> 4hbald_c + accoa_c	nan	0.0
+DM_wco_c	Universal model	coucoa_c	accoa_c	0.0	0.590740577761	HMR_6785	coa_c_ + coucoa_c_ + h2o_c_ + nad_c_ --> 4hbzcoa_c_ + accoa_c_ + h_c_ + nadh_c_	NA	NA
+DM_wco_c	Native	prbamp_c	prfp_c	-0.0102686979155	0.0102686979155	PRAMPC_copy1	h2o_c + prbamp_c --> prfp_c	-0.999230103574	-0.01452213186
+DM_wco_c	Native	prbamp_c	prfp_c	-0.0102686979155	0.0102686979155	PRAMPC_copy2	h2o_c + prbamp_c --> prfp_c	nan	0.0
+DM_wco_c	Universal model	prbamp_c	prfp_c	-0.0102686979155	0.0102686979155	PRAMPC_1	h2o_c_ + h_c_ + prbamp_c_ --> prfp_c_	NA	NA
+DM_wco_c	Universal model	prbamp_c	prfp_c	-0.0102686979155	0.0102686979155	PRAMPC	h2o_c_ + prbamp_c_ --> prfp_c_	NA	NA
+DM_wco_c	Universal model	mthgxl_c	pyr_c	0.0	0.228932965515	ALR	h2o_c_ + mthgxl_c_ + nadp_c_ --> 2.0 h_c_ + nadph_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	mthgxl_c	pyr_c	0.0	0.228932965515	PANO	h2o_c_ + mthgxl_c_ + nad_c_ --> 2.0 h_c_ + nadh_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	thr__L_c	ser__L_c	-0.100354371813	0.63107843357	STPT2	pser__L_c_ + thr__L_c_ --> ser__L_c_ + thrp_c_	NA	NA
+DM_wco_c	Native	thr__L_c	gly_c	-0.100354371813	0.313447774173	THRA	thr__L_c <=> acald_c + gly_c	-0.999230103574	-0.0575962498345
+DM_wco_c	Universal model	occoa_c	accoa_c	0.0	0.590740577761	FAD_11	coa_c_ + fad_c_ + nad_c_ + occoa_c_ --> accoa_c_ + fadh2_c_ + hexcoa_c_ + nadh_c_	NA	NA
+DM_wco_c	Universal model	4abut_c	ala__L_c	-0.000165176903675	0.558332447708	A4PA	4abut_c_ + pyr_c_ --> ala__L_c_ + sucsal_c_	NA	NA
+DM_wco_c	Native	4abut_c	glu__L_c	-0.000165176903675	0.901146346509	ABTA	4abut_c + akg_c --> glu__L_c + sucsal_c	-0.40618119723	-0.000233595417368
+DM_wco_c	Universal model	4abut_c	gly_c	-0.000165176903675	0.313447774173	A4GA	4abut_c_ + glx_c_ --> gly_c_ + sucsal_c_	NA	NA
+DM_wco_c	Native	leu__L_c	glu__L_c	-0.0813111032269	0.901146346509	LEUTA	akg_c + leu__L_c <=> 4mop_c + glu__L_c	0.999230103574	0.0723029426747
+DM_wco_c	Native	balaala_c	ala__L_c	0.0	0.558332447708	DALAALAD	balaala_c + h2o_c --> ala__D_c + ala__L_c	nan	0.0
+DM_wco_c	Native	3sala_c	ala__L_c	0.0	0.558332447708	CYSSADS	3sala_c + 2.0 h_c --> ala__L_c + so2_c	nan	0.0
+DM_wco_c	Universal model	3sala_c	glu__L_c	0.0	0.901146346509	ASPTA3	3sala_c_ + akg_c_ --> glu__L_c_ + spyr_c_	NA	NA
+DM_wco_c	Universal model	3sala_c	glu__L_c	0.0	0.901146346509	3SALATAi	3sala_c_ + akg_c_ + h_c_ --> 3snpyr_c_ + glu__L_c_	NA	NA
+DM_wco_c	Universal model	3sala_c	glu__L_c	0.0	0.901146346509	ASPA2	3sala_c_ + akg_c_ --> 3snpyr_c_ + glu__L_c_	NA	NA
+DM_wco_c	Native	imacp_c	akg_c	-0.0102686979155	0.529545111992	HSTPT	glu__L_c + imacp_c --> akg_c + hisp_c	-0.999230103574	-0.01452213186
+DM_wco_c	Universal model	imacp_c	akg_c	-0.0102686979155	0.529545111992	HSTPTr	glu__L_c_ + imacp_c_ --> akg_c_ + h_c_ + hisp_c_	NA	NA
+DM_wco_c	Native	oxadpcoa_c	accoa_c	0.0	0.590740577761	3OXCOAT	coa_c + oxadpcoa_c --> accoa_c + succoa_c	nan	0.0
+DM_wco_c	Universal model	odecoa_c	accoa_c	0.0	0.590740577761	FAD_14	coa_c_ + fad_c_ + h2o_c_ + nad_c_ + odecoa_c_ --> accoa_c_ + fadh2_c_ + h_c_ + hdcoa_c_ + nadh_c_	NA	NA
+DM_wco_c	Native	g1p_c	g6p_c	-0.00461863606164	0.0251353905284	PGMT	g1p_c <=> g6p_c	-0.999230103574	-0.00399985616021
+DM_wco_c	Universal model	g1p_c	3pg_c	-0.00461863606164	0.827651734181	GBPS	13dpg_c_ + g1p_c_ --> 3pg_c_ + g16bp_c_ + h_c_	NA	NA
+DM_wco_c	Universal model	g1p_c	3pg_c	-0.00461863606164	0.827651734181	HMR_8585	13dpg_c_ + g1p_c_ --> 3pg_c_ + M01966_c_	NA	NA
+DM_wco_c	Native	dxyl5p_c	ala__L_c	-0.000201464696202	0.558332447708	THZPSN	atp_c + cys__L_c + dxyl5p_c + tyr__L_c --> 4hba_c + 4mpetz_c + ala__L_c + amp_c + co2_c + h2o_c + h_c + ppi_c	-0.999230103583	-2.56430520815e-05
+DM_wco_c	Universal model	dxyl5p_c	ala__L_c	-0.000201464696202	0.558332447708	THZPSN_1	atp_c_ + cys__L_c_ + dxyl5p_c_ + tyr__L_c_ --> 4hba_c_ + 4mpetz_c_ + ala__L_c_ + amp_c_ + co2_c_ + h2o_c_ + ppi_c_	NA	NA
+DM_wco_c	Universal model	dxyl5p_c	ala__L_c	-0.000201464696202	0.558332447708	THZPSN2	amet_c_ + atp_c_ + cys__L_c_ + dxyl5p_c_ + nadph_c_ + tyr__L_c_ --> 4mpetz_c_ + ala__L_c_ + amp_c_ + co2_c_ + cresol_c_ + dad_5_c_ + 2.0 h2o_c_ + h_c_ + met__L_c_ + nadp_c_ + ppi_c_	NA	NA
+DM_wco_c	Universal model	2kmb_c	glu__L_c	0.0	0.901146346509	UNK2	2kmb_c_ + gln__L_c_ + h_c_ --> glu__L_c_ + met__L_c_	NA	NA
+DM_wco_c	Universal model	2kmb_c	glu__L_c	0.0	0.901146346509	UNK2_cho	2kmb_c_ + gln__L_c_ + 2.0 h_c_ --> glu__L_c_ + met__L_c_	NA	NA
+DM_wco_c	Native	2kmb_c	akg_c	0.0	0.529545111992	UNK3	2kmb_c + glu__L_c --> akg_c + met__L_c	nan	0.0
+DM_wco_c	Universal model	2kmb_c	oaa_c	0.0	0.28130645333	UNK5	2kmb_c_ + asp__L_c_ --> met__L_c_ + oaa_c_	NA	NA
+DM_wco_c	Native	urdglyc_c	glx_c	0.0	0.105234937785	UGLYCH	h2o_c + 2.0 h_c + urdglyc_c --> co2_c + glx_c + 2.0 nh4_c	nan	0.0
+DM_wco_c	Native	ile__L_c	glu__L_c	-0.0813111032269	0.901146346509	ILETA	akg_c + ile__L_c <=> 3mop_c + glu__L_c	0.999230103574	0.0281212288361
+DM_wco_c	Native	3ohcoa_c	accoa_c	0.0	0.590740577761	ACACT11	3ohcoa_c + coa_c --> accoa_c + btcoa_c	nan	0.0
+DM_wco_c	Native	3oxptcoa_c	accoa_c	0.0	0.590740577761	KAT33	3oxptcoa_c + coa_c --> accoa_c + ppcoa_c	nan	0.0
+DM_wco_c	Native	sarcs_c	mlthf_c	0.0	0.483925971714	SARCOX2	o2_c + sarcs_c + thf_c --> gly_c + h2o2_c + mlthf_c	nan	0.0
+DM_wco_c	Native	sarcs_c	gly_c	0.0	0.313447774173	SARCOX	h2o_c + o2_c + sarcs_c --> fald_c + gly_c + h2o2_c	nan	0.0
+DM_wco_c	Native	sarcs_c	gly_c	0.0	0.313447774173	SARCOX2	o2_c + sarcs_c + thf_c --> gly_c + h2o2_c + mlthf_c	nan	0.0
+DM_wco_c	Native	3optslacoa_c	accoa_c	0.0	0.590740577761	KAT27	3optslacoa_c + coa_c --> accoa_c + hdd4coa_c	nan	0.0
+DM_wco_c	Native	3oddccoa_c	accoa_c	-0.00112389829258	0.590740577761	KAT23	3oddccoa_c + coa_c --> accoa_c + decoa_c	-0.40618119723	-0.000973324472639
+DM_wco_c	Native	5oxpro_c	glu__L_c	0.0	0.901146346509	OPAH	5oxpro_c + atp_c + 2.0 h2o_c --> adp_c + glu__L_c + h_c + pi_c	nan	0.0
+DM_wco_c	Universal model	dtdp4d6dg_c	akg_c	0.0	0.529545111992	TDPAGTA	dtdp4d6dg_c_ + glu__L_c_ --> akg_c_ + dtdp4addg_c_	NA	NA
+DM_wco_c	Native	LalaLglu_c	ala__L_c	0.0	0.558332447708	LALGP	LalaLglu_c + h2o_c --> ala__L_c + glu__L_c	nan	0.0
+DM_wco_c	Native	LalaLglu_c	glu__L_c	0.0	0.901146346509	LALGP	LalaLglu_c + h2o_c --> ala__L_c + glu__L_c	nan	0.0
+DM_wco_c	Native	r15bp_c	prpp_c	-1.95707589492e-15	0.247043697594	R15BPK	atp_c + r15bp_c --> adp_c + prpp_c	-0.406181197229	-2.76772327319e-15
+DM_wco_c	Native	lac__D_c	pyr_c	0.0	0.228932965515	LDH_D	lac__D_c + nad_c <=> h_c + nadh_c + pyr_c	nan	0.0
+DM_wco_c	Native	lac__D_c	pyr_c	0.0	0.228932965515	LDH_D2	lac__D_c + q8_c --> pyr_c + q8h2_c	nan	0.0
+DM_wco_c	Universal model	lac__D_c	pyr_c	0.0	0.228932965515	LDH_D1	lac__D_c_ + mqn6_c_ --> mql6_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	lac__D_c	pyr_c	0.0	0.228932965515	HAAOR	elecacceptoxi_c_ + lac__D_c_ --> elecacceptred_c_ + 2.0 h_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	lac__D_c	succ_c	0.0	0.562176810301	DLTO	lac__D_c_ + succoa_c_ --> laccoa_c_ + succ_c_	NA	NA
+DM_wco_c	Native	metsox_S__L_c	trdox_c	0.0	0.54214933126	METSOXR1	metsox_S__L_c + trdrd_c --> h2o_c + met__L_c + trdox_c	nan	0.0
+DM_wco_c	Native	caffcoa_c	accoa_c	0.0	0.590740577761	CACOAHA	caffcoa_c + h2o_c --> 34dhbald_c + accoa_c	nan	0.0
+DM_wco_c	Universal model	pydam_c	ala__L_c	0.0	0.558332447708	PDYXPT_c	pydam_c_ + pyr_c_ --> ala__L_c_ + pydx_c_	NA	NA
+DM_wco_c	Universal model	pydam_c	asp__L_c	0.0	0.247542371679	PYOA	oaa_c_ + pydam_c_ --> asp__L_c_ + pydx_c_	NA	NA
+DM_wco_c	Universal model	Largn_c	asp__L_c	0.0	0.247542371679	LASP2OA	Largn_c_ + oaa_c_ --> asp__L_c_ + pphn_c_	NA	NA
+DM_wco_c	Native	25dop_c	akg_c	0.0	0.529545111992	DOPDH	25dop_c + h2o_c + nadp_c <=> akg_c + 2.0 h_c + nadph_c	nan	0.0
+DM_wco_c	Native	2maacoa_c	accoa_c	0.0	0.590740577761	MACCOAT	2maacoa_c + coa_c --> accoa_c + ppcoa_c	nan	0.0
+DM_wco_c	Native	pep_c	pyr_c	-0.2956823585	0.228932965515	FRUptspp	fru_p + pep_c --> f1p_c + pyr_c	nan	0.0
+DM_wco_c	Native	pep_c	pyr_c	-0.2956823585	0.228932965515	PYK	adp_c + h_c + pep_c --> atp_c + pyr_c	-0.871219223014	-0.41247344682
+DM_wco_c	Native	pep_c	pyr_c	-0.2956823585	0.228932965515	AGPOP	dgdp_c + h_c + pep_c --> dgtp_c + pyr_c	-0.932144565556	-0.00250922413698
+DM_wco_c	Universal model	pep_c	pyr_c	-0.2956823585	0.228932965515	SUCptspp_1	pep_c_ --> pyr_c_ + suc6p_c_	NA	NA
+DM_wco_c	Universal model	pep_c	pyr_c	-0.2956823585	0.228932965515	PYK4	cdp_c_ + h_c_ + pep_c_ --> ctp_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	pep_c	pyr_c	-0.2956823585	0.228932965515	PYK5	h_c_ + idp_c_ + pep_c_ --> itp_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	pep_c	pyr_c	-0.2956823585	0.228932965515	PYK6	dtdp_c_ + h_c_ + pep_c_ --> dttp_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	pep_c	pyr_c	-0.2956823585	0.228932965515	DHAPT	dha_c_ + pep_c_ --> dhap_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	pep_c	pyr_c	-0.2956823585	0.228932965515	FUTS	chor_c_ + h_c_ + imp_c_ + pep_c_ --> co2_c_ + fut_c_ + 2.0 pi_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	pep_c	pyr_c	-0.2956823585	0.228932965515	PYK2	h_c_ + pep_c_ + udp_c_ --> pyr_c_ + utp_c_	NA	NA
+DM_wco_c	Universal model	pep_c	pyr_c	-0.2956823585	0.228932965515	PYK3	gdp_c_ + h_c_ + pep_c_ --> gtp_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	pep_c	pyr_c	-0.2956823585	0.228932965515	PGAM1_PhosHydro	h2o_c_ + pep_c_ --> pi_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	pep_c	pyr_c	-0.2956823585	0.228932965515	r0280	dadp_c_ + h_c_ + pep_c_ --> datp_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	pep_c	akg_c	-0.2956823585	0.529545111992	BIOMASS_Ecoli_core_w_GAM	1.496 3pg_c_ + 3.7478 accoa_c_ + 59.81 atp_c_ + 0.361 e4p_c_ + 0.0709 f6p_c_ + 0.129 g3p_c_ + 0.205 g6p_c_ + 0.2557 gln__L_c_ + 4.9414 glu__L_c_ + 59.81 h2o_c_ + 3.547 nad_c_ + 13.0279 nadph_c_ + 1.7867 oaa_c_ + 0.5191 pep_c_ + 2.8328 pyr_c_ + 0.8977 r5p_c_ --> 59.81 adp_c_ + 4.1182 akg_c_ + 3.7478 coa_c_ + 59.81 h_c_ + 3.547 nadh_c_ + 13.0279 nadp_c_ + 59.81 pi_c_	NA	NA
+DM_wco_c	Native	pep_c	oaa_c	-0.2956823585	0.28130645333	PPC	co2_c + h2o_c + pep_c --> h_c + oaa_c + pi_c	-0.944818559897	-0.369609686198
+DM_wco_c	Universal model	pep_c	oaa_c	-0.2956823585	0.28130645333	PEPC	hco3_c_ + pep_c_ --> oaa_c_ + pi_c_	NA	NA
+DM_wco_c	Universal model	pep_c	dhap_c	-0.2956823585	0.0757107208054	DHAPT	dha_c_ + pep_c_ --> dhap_c_ + pyr_c_	NA	NA
+DM_wco_c	Native	acorn_c	ac_c	-0.051784175513	0.559489578037	ACODA	acorn_c + h2o_c --> ac_c + orn_c	-0.999400323276	-0.0448464115083
+DM_wco_c	Universal model	acorn_c	ac_c	-0.051784175513	0.559489578037	ACODA_1	acorn_c_ + h2o_c_ --> ac_c_ + orn__L_c_	NA	NA
+DM_wco_c	Native	acorn_c	glu__L_c	-0.051784175513	0.901146346509	ACOTA	acorn_c + akg_c <=> acg5sa_c + glu__L_c	-0.999400323276	-0.0448464115083
+DM_wco_c	Native	3oxdhscoa_c	accoa_c	0.0	0.590740577761	OXDHCOAT	3oxdhscoa_c + coa_c --> 23dhacoa_c + accoa_c	nan	0.0
+DM_wco_c	Universal model	achms_c	pyr_c	-0.00995686983455	0.228932965515	THZPSN1_SC	achms_c_ + cys__L_c_ + gly_c_ + h_c_ + xu5p__D_c_ --> 4abut_c_ + 4mpetz_c_ + ac_c_ + co2_c_ + 3.0 h2o_c_ + nh4_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	achms_c	pyr_c	-0.00995686983455	0.228932965515	THZPSN2_SC	achms_c_ + cys__L_c_ + gly_c_ + h_c_ + r5p_c_ --> 4abut_c_ + 4mpetz_c_ + ac_c_ + co2_c_ + 3.0 h2o_c_ + nh4_c_ + pyr_c_	NA	NA
+DM_wco_c	Native	achms_c	ac_c	-0.00995686983455	0.559489578037	AHSERL2	achms_c + h2s_c --> ac_c + h_c + hcys__L_c	-0.999230103574	-0.0140811403588
+DM_wco_c	Universal model	achms_c	ac_c	-0.00995686983455	0.559489578037	AHSERL	achms_c_ + ch4s_c_ --> ac_c_ + h_c_ + met__L_c_	NA	NA
+DM_wco_c	Universal model	achms_c	ac_c	-0.00995686983455	0.559489578037	THZPSN1_SC	achms_c_ + cys__L_c_ + gly_c_ + h_c_ + xu5p__D_c_ --> 4abut_c_ + 4mpetz_c_ + ac_c_ + co2_c_ + 3.0 h2o_c_ + nh4_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	achms_c	ac_c	-0.00995686983455	0.559489578037	METB2	achms_c_ + cys__L_c_ --> ac_c_ + cyst__L_c_	NA	NA
+DM_wco_c	Universal model	achms_c	ac_c	-0.00995686983455	0.559489578037	HCYSS2	achms_c_ + trdrd_c_ + tsul_c_ --> ac_c_ + h_c_ + hcys__L_c_ + so3_c_ + trdox_c_	NA	NA
+DM_wco_c	Universal model	achms_c	ac_c	-0.00995686983455	0.559489578037	METB1	achms_c_ + cys__L_c_ --> ac_c_ + cyst__L_c_ + h_c_	NA	NA
+DM_wco_c	Universal model	achms_c	ac_c	-0.00995686983455	0.559489578037	THZPSN2_SC	achms_c_ + cys__L_c_ + gly_c_ + h_c_ + r5p_c_ --> 4abut_c_ + 4mpetz_c_ + ac_c_ + co2_c_ + 3.0 h2o_c_ + nh4_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	achms_c	ac_c	-0.00995686983455	0.559489578037	ACHMSSELCYSL	achms_c_ + selcys_c_ --> ac_c_ + selcyst_c_	NA	NA
+DM_wco_c	Universal model	achms_c	ac_c	-0.00995686983455	0.559489578037	AHSERL2_1	achms_c_ + h2s_c_ --> ac_c_ + hcys__L_c_	NA	NA
+DM_wco_c	Universal model	achms_c	trdox_c	-0.00995686983455	0.54214933126	HCYSS2	achms_c_ + trdrd_c_ + tsul_c_ --> ac_c_ + h_c_ + hcys__L_c_ + so3_c_ + trdox_c_	NA	NA
+DM_wco_c	Native	mmtsa_c	pyr_c	0.0	0.228932965515	3AIBT2	ala__L_c + mmtsa_c <=> 3aib_c + pyr_c	nan	0.0
+DM_wco_c	Universal model	mmtsa_c	pyr_c	0.0	0.228932965515	OOAP	ala__L_c_ + mmtsa_c_ --> aibut_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	pg181_c	glyc_c	-0.0665640474189	0.0892723213743	CLPNS181	2.0 pg181_c_ --> clpn181_c_ + glyc_c_	NA	NA
+DM_wco_c	Universal model	but_c	ac_c	0.0	0.559489578037	BUTCT	accoa_c_ + but_c_ --> ac_c_ + btcoa_c_	NA	NA
+DM_wco_c	Universal model	pg160_c	glyc_c	-0.0664669848915	0.0892723213743	CLPNS160	2.0 pg160_c_ --> clpn160_c_ + glyc_c_	NA	NA
+DM_wco_c	Universal model	pg160_c	glyc3p_c	-0.0664669848915	0.0759053057445	PLCG	pg160_c_ --> 12dgr160_c_ + glyc3p_c_	NA	NA
+DM_wco_c	Native	3oocoa_c	accoa_c	0.0	0.590740577761	ACACT8	3oocoa_c + coa_c --> accoa_c + hxcoa_c	nan	0.0
+DM_wco_c	Universal model	pg140_c	glyc_c	-0.0663926278251	0.0892723213743	CLPNS140	2.0 pg140_c_ --> clpn140_c_ + glyc_c_	NA	NA
+DM_wco_c	Native	glygly_c	gly_c	0.0	0.313447774173	GLYGLYCNc	glygly_c + h2o_c --> 2.0 gly_c	nan	0.0
+DM_wco_c	Universal model	tyr__L_c	pyr_c	-0.065336139392	0.228932965515	THZSN_1	cys__L_c_ + dxyl_c_ + fdxo_2_2_c_ + tyr__L_c_ --> 4hba_c_ + 4mhetz_c_ + co2_c_ + fdxrd_c_ + h2o_c_ + h_c_ + nh4_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	tyr__L_c	pyr_c	-0.065336139392	0.228932965515	THZSN	cys__L_c_ + dxyl_c_ + tyr__L_c_ --> 4hba_c_ + 4mhetz_c_ + co2_c_ + h2o_c_ + h_c_ + nh4_c_ + pyr_c_	NA	NA
+DM_wco_c	Native	tyr__L_c	ala__L_c	-0.065336139392	0.558332447708	THZPSN	atp_c + cys__L_c + dxyl5p_c + tyr__L_c --> 4hba_c + 4mpetz_c + ala__L_c + amp_c + co2_c + h2o_c + h_c + ppi_c	-0.999230103583	-2.56430520815e-05
+DM_wco_c	Universal model	tyr__L_c	ala__L_c	-0.065336139392	0.558332447708	THZPSN_1	atp_c_ + cys__L_c_ + dxyl5p_c_ + tyr__L_c_ --> 4hba_c_ + 4mpetz_c_ + ala__L_c_ + amp_c_ + co2_c_ + h2o_c_ + ppi_c_	NA	NA
+DM_wco_c	Universal model	tyr__L_c	ala__L_c	-0.065336139392	0.558332447708	THZPSN2	amet_c_ + atp_c_ + cys__L_c_ + dxyl5p_c_ + nadph_c_ + tyr__L_c_ --> 4mpetz_c_ + ala__L_c_ + amp_c_ + co2_c_ + cresol_c_ + dad_5_c_ + 2.0 h2o_c_ + h_c_ + met__L_c_ + nadp_c_ + ppi_c_	NA	NA
+DM_wco_c	Universal model	tyr__L_c	thf_c	-0.065336139392	0.385914048371	TYRNFT	10fthf_c_ + tyr__L_c_ --> Nfortyr_c_ + h_c_ + thf_c_	NA	NA
+DM_wco_c	Native	tyr__L_c	glu__L_c	-0.065336139392	0.901146346509	TYRTA	akg_c + tyr__L_c <=> 34hpp_c + glu__L_c	-0.999230103574	-0.0156553707761
+DM_wco_c	Universal model	g3p_c	ala__L_c	-0.0647568466575	0.558332447708	M45TB	cys__L_c_ + g3p_c_ + gly_c_ + pyr_c_ --> 4mhetz_c_ + ala__L_c_ + co2_c_ + h2o_c_ + pi_c_	NA	NA
+DM_wco_c	Universal model	g3p_c	glu__L_c	-0.0647568466575	0.901146346509	PLPS	g3p_c_ + gln__L_c_ + r5p_c_ --> glu__L_c_ + 3.0 h2o_c_ + h_c_ + pi_c_ + pydx5p_c_	NA	NA
+DM_wco_c	Universal model	g3p_c	glu__L_c	-0.0647568466575	0.901146346509	PYDXS	g3p_c_ + gln__L_c_ + ru5p__D_c_ --> glu__L_c_ + 3.0 h2o_c_ + h_c_ + pi_c_ + pydx5p_c_	NA	NA
+DM_wco_c	Universal model	g3p_c	glu__L_c	-0.0647568466575	0.901146346509	PLPS_1	g3p_c_ + gln__L_c_ + ru5p__D_c_ --> glu__L_c_ + 3.0 h2o_c_ + 2.0 h_c_ + pi_c_ + pydx5p_c_	NA	NA
+DM_wco_c	Universal model	g3p_c	akg_c	-0.0647568466575	0.529545111992	BIOMASS_Ecoli_core_w_GAM	1.496 3pg_c_ + 3.7478 accoa_c_ + 59.81 atp_c_ + 0.361 e4p_c_ + 0.0709 f6p_c_ + 0.129 g3p_c_ + 0.205 g6p_c_ + 0.2557 gln__L_c_ + 4.9414 glu__L_c_ + 59.81 h2o_c_ + 3.547 nad_c_ + 13.0279 nadph_c_ + 1.7867 oaa_c_ + 0.5191 pep_c_ + 2.8328 pyr_c_ + 0.8977 r5p_c_ --> 59.81 adp_c_ + 4.1182 akg_c_ + 3.7478 coa_c_ + 59.81 h_c_ + 3.547 nadh_c_ + 13.0279 nadp_c_ + 59.81 pi_c_	NA	NA
+DM_wco_c	Native	g3p_c	13dpg_c	-0.0647568466575	0.017207430382	GAPD	g3p_c + nad_c + pi_c <=> 13dpg_c + h_c + nadh_c	-0.555465219742	-0.111107924105
+DM_wco_c	Universal model	g3p_c	13dpg_c	-0.0647568466575	0.017207430382	GAPD_1	g3p_c_ + nad_c_ + pi_c_ --> 13dpg_c_ + nadh_c_	NA	NA
+DM_wco_c	Universal model	g3p_c	glyald_c	-0.0647568466575	0.146460487386	GAPP	g3p_c_ + h2o_c_ --> glyald_c_ + pi_c_	NA	NA
+DM_wco_c	Universal model	g3p_c	3pg_c	-0.0647568466575	0.827651734181	GD3P2	g3p_c_ + h2o_c_ + nadp_c_ --> 3pg_c_ + 2.0 h_c_ + nadph_c_	NA	NA
+DM_wco_c	Universal model	ahdt_c	ac_c	-9.06618800981e-05	0.559489578037	HMDHPS_c	ahdt_c_ + h2o_c_ --> 6hmhpt_c_ + ac_c_ + h_c_ + pppi_c_	NA	NA
+DM_wco_c	Universal model	ser__D_c	pyr_c	0.0	0.228932965515	SERD_D	ser__D_c_ --> nh4_c_ + pyr_c_	NA	NA
+DM_wco_c	Native	glyglu_c	glu__L_c	0.0	0.901146346509	AMPTASEGGLU	glyglu_c + h2o_c --> glu__L_c + gly_c	nan	0.0
+DM_wco_c	Native	glyglu_c	gly_c	0.0	0.313447774173	AMPTASEGGLU	glyglu_c + h2o_c --> glu__L_c + gly_c	nan	0.0
+DM_wco_c	Native	ferulcoa_c	accoa_c	0.0	0.590740577761	FCOAHA	ferulcoa_c + h2o_c --> accoa_c + vanln_c	nan	0.0
+DM_wco_c	Universal model	thmpp_c	r5p_c	-0.0663911417503	0.320380925679	S7PTDG	3.0 h_c_ + s7p_c_ + thmpp_c_ --> dhettp_c_ + r5p_c_	NA	NA
+DM_wco_c	Universal model	thmpp_c	pyr_c	-0.0663911417503	0.228932965515	ACLS_b	alac__S_c_ + thmpp_c_ --> hethmpp_c_ + pyr_c_	NA	NA
+DM_wco_c	Native	arg__L_c	ala__L_c	-0.0813111032269	0.558332447708	ARUH	arg__L_c + pyr_c <=> 5g2oxpt_c + ala__L_c	nan	0.0
+DM_wco_c	Universal model	tsul_c	cys__L_c	0.0	0.56129142856	AHSERL4	acser_c_ + trdrd_c_ + tsul_c_ --> ac_c_ + cys__L_c_ + h_c_ + so3_c_ + trdox_c_	NA	NA
+DM_wco_c	Universal model	tsul_c	cys__L_c	0.0	0.56129142856	ACSERHS	acser_c_ + trdrd_c_ + tsul_c_ --> ac_c_ + cys__L_c_ + so3_c_ + trdox_c_	NA	NA
+DM_wco_c	Universal model	tsul_c	cys__L_c	0.0	0.56129142856	AHSERL5i	acser_c_ + trpdrd_c_ + tsul_c_ --> ac_c_ + cys__L_c_ + h_c_ + so3_c_ + trpdox_c_	NA	NA
+DM_wco_c	Native	tsul_c	ac_c	0.0	0.559489578037	SLCYSS	acser_c + tsul_c --> ac_c + scys__L_c	nan	0.0
+DM_wco_c	Universal model	tsul_c	ac_c	0.0	0.559489578037	HCYSS2	achms_c_ + trdrd_c_ + tsul_c_ --> ac_c_ + h_c_ + hcys__L_c_ + so3_c_ + trdox_c_	NA	NA
+DM_wco_c	Universal model	tsul_c	ac_c	0.0	0.559489578037	ACSERSULL	acser_c_ + tsul_c_ --> ac_c_ + h_c_ + scys__L_c_	NA	NA
+DM_wco_c	Universal model	tsul_c	ac_c	0.0	0.559489578037	AHSERL4	acser_c_ + trdrd_c_ + tsul_c_ --> ac_c_ + cys__L_c_ + h_c_ + so3_c_ + trdox_c_	NA	NA
+DM_wco_c	Universal model	tsul_c	ac_c	0.0	0.559489578037	ACSERHS	acser_c_ + trdrd_c_ + tsul_c_ --> ac_c_ + cys__L_c_ + so3_c_ + trdox_c_	NA	NA
+DM_wco_c	Universal model	tsul_c	ac_c	0.0	0.559489578037	AHSERL5i	acser_c_ + trpdrd_c_ + tsul_c_ --> ac_c_ + cys__L_c_ + h_c_ + so3_c_ + trpdox_c_	NA	NA
+DM_wco_c	Universal model	tsul_c	trdox_c	0.0	0.54214933126	HCYSS2	achms_c_ + trdrd_c_ + tsul_c_ --> ac_c_ + h_c_ + hcys__L_c_ + so3_c_ + trdox_c_	NA	NA
+DM_wco_c	Universal model	tsul_c	trdox_c	0.0	0.54214933126	AHSERL4	acser_c_ + trdrd_c_ + tsul_c_ --> ac_c_ + cys__L_c_ + h_c_ + so3_c_ + trdox_c_	NA	NA
+DM_wco_c	Universal model	tsul_c	trdox_c	0.0	0.54214933126	ACSERHS	acser_c_ + trdrd_c_ + tsul_c_ --> ac_c_ + cys__L_c_ + so3_c_ + trdox_c_	NA	NA
+DM_wco_c	Universal model	trp__L_c	pyr_c	-0.0813111032269	0.228932965515	TRPAS2	h2o_c_ + trp__L_c_ --> indole_c_ + nh4_c_ + pyr_c_	NA	NA
+DM_wco_c	Universal model	trp__L_c	glu__L_c	-0.0813111032269	0.901146346509	TRPTA	akg_c_ + trp__L_c_ --> glu__L_c_ + indpyr_c_	NA	NA
+DM_wco_c	Native	actn__R_c	accoa_c	0.0	0.590740577761	ACTD2	actn__R_c + coa_c + nad_c --> acald_c + accoa_c + h_c + nadh_c	nan	0.0
+DM_wco_c	Native	gthrd_c	cys__L_c	-0.0813111032269	0.56129142856	SCYSSL	2.0 gthrd_c + scys__L_c <=> cys__L_c + gthox_c + h_c + so3_c	nan	0.0
+DM_wco_c	Universal model	gthrd_c	cys__L_c	-0.0813111032269	0.56129142856	CYSGLTH	cysi__L_c_ + 2.0 gthrd_c_ --> 2.0 cys__L_c_ + gthox_c_	NA	NA
+DM_wco_c	Universal model	gthrd_c	glu__L_c	-0.0813111032269	0.901146346509	GTHRDH_syn	gthrd_c_ + h2o_c_ --> cgly_c_ + glu__L_c_	NA	NA
+DM_wco_c	Universal model	decoa_c	accoa_c	-0.000688244334898	0.590740577761	FAD_10	coa_c_ + decoa_c_ + fad_c_ + nad_c_ --> accoa_c_ + fadh2_c_ + nadh_c_ + occoa_c_	NA	NA
+DM_wco_c	Native	g3pg_c	glyc_c	-1.19278368326e-05	0.0892723213743	GPDDA4	g3pg_c + h2o_c --> glyc3p_c + glyc_c + h_c	-0.40618119723	-1.68685086185e-05
+DM_wco_c	Native	g3pg_c	glyc3p_c	-1.19278368326e-05	0.0759053057445	GPDDA4	g3pg_c + h2o_c --> glyc3p_c + glyc_c + h_c	-0.40618119723	-1.68685086185e-05
+DM_wco_c	Native	4adcho_c	pyr_c	-7.25295040785e-05	0.228932965515	ADCL	4adcho_c --> 4abz_c + h_c + pyr_c	-0.999230103574	-0.00010257220834
+DM_wco_c	Universal model	oxa_c	ac_c	0.0	0.559489578037	ACOXT	accoa_c_ + oxa_c_ --> ac_c_ + oxalcoa_c_	NA	NA
+DM_wco_c	Native	fdp_c	dhap_c	0.0	0.0757107208054	FBA	fdp_c <=> dhap_c + g3p_c	nan	0.0
+DM_wco_c	Native	dcamp_c	fum_c	-0.0251854637358	0.636825564873	ADSL1r	dcamp_c <=> amp_c + fum_c	-0.999230103574	-0.0356176243898
+DM_wco_c	Native	dhf_c	thf_c	-0.000955080218509	0.385914048371	DHFR	dhf_c + h_c + nadph_c <=> nadp_c + thf_c	-0.999230103574	-0.00135068739817
+DM_wco_c	Universal model	dhf_c	thf_c	-0.000955080218509	0.385914048371	DHFR2i	dhf_c_ + h_c_ + nadh_c_ --> nad_c_ + thf_c_	NA	NA
+DM_wco_c	Universal model	s7p_c	r5p_c	-0.0115486034298	0.320380925679	S7PTDG	3.0 h_c_ + s7p_c_ + thmpp_c_ --> dhettp_c_ + r5p_c_	NA	NA
+DM_wco_c	Native	ala_B_c	ala__L_c	-4.05052603815e-05	0.558332447708	APATr	ala_B_c + pyr_c <=> ala__L_c + msa_c	-0.40618119723	-4.03719161423e-06
+DM_wco_c	Universal model	ala_B_c	glu__L_c	-4.05052603815e-05	0.901146346509	3A2OA	akg_c_ + ala_B_c_ --> glu__L_c_ + msa_c_	NA	NA
+DM_wco_c	Universal model	ala_B_c	glu__L_c	-4.05052603815e-05	0.901146346509	ALAB	akg_c_ + ala_B_c_ --> glu__L_c_ + octdp_c_	NA	NA
+DM_wco_c	Native	hgbyr_c	glu__L_c	-1.81323760197e-05	0.901146346509	HYGBDIAS	2.0 atp_c + 2.0 gln__L_c + h2o_c + hgbyr_c --> 2.0 adp_c + 2.0 glu__L_c + 2.0 h_c + hgbam_c + ppi_c	-0.999230103574	-2.56430520851e-05
+DM_wco_c	Universal model	hgbyr_c	glu__L_c	-1.81323760197e-05	0.901146346509	R05224	2.0 atp_c_ + 2.0 gln__L_c_ + h2o_c_ + hgbyr_c_ --> 2.0 adp_c_ + 2.0 glu__L_c_ + h_c_ + hgbam_c_ + ppi_c_	NA	NA
+DM_wco_c	Universal model	hgbyr_c	glu__L_c	-1.81323760197e-05	0.901146346509	R05224_1	2.0 atp_c_ + fdxrd_c_ + 2.0 gln__L_c_ + h2o_c_ + hgbyr_c_ --> 2.0 adp_c_ + fdxo_2_2_c_ + 2.0 glu__L_c_ + h_c_ + hgbam_c_ + ppi_c_	NA	NA
+DM_wco_c	Universal model	hgbyr_c	glu__L_c	-1.81323760197e-05	0.901146346509	HGYDAS	2.0 atp_c_ + 2.0 gln__L_c_ + 2.0 h2o_c_ + hgbyr_c_ --> 2.0 adp_c_ + 2.0 glu__L_c_ + 2.0 h_c_ + hgbam_c_ + 2.0 pi_c_	NA	NA
+DM_wco_c	Native	aacoa_c	accoa_c	0.0	0.590740577761	KAT1	aacoa_c + coa_c --> 2.0 accoa_c	nan	0.0
+DM_wco_c	Universal model	aacoa_c	accoa_c	0.0	0.590740577761	ACCOAS	aacoa_c_ + coa_c_ --> accoa_c_	NA	NA
+DM_wco_c	Universal model	orn_c	glu__L_c	-0.0200559249359	0.901146346509	ORNTA	akg_c_ + orn_c_ --> glu5sa_c_ + glu__L_c_	NA	NA
+DM_wco_c	Universal model	orn_c	glu__L_c	-0.0200559249359	0.901146346509	GLP5H	akg_c_ + orn_c_ --> glu__L_c_ + glusemald_c_	NA	NA
+DM_wco_c	Native	athr__L_c	gly_c	-2.96100460516e-05	0.313447774173	THRA2	athr__L_c <=> acald_c + gly_c	-0.999230103561	-2.56430520879e-05
+DM_wco_c	Native	2oxoadp_c	akg_c	0.0	0.529545111992	AATA	2oxoadp_c + glu__L_c <=> L2aadp_c + akg_c	nan	0.0
+DM_wco_c	Universal model	alac__S_c	pyr_c	0.0	0.228932965515	ACLS_b	alac__S_c_ + thmpp_c_ --> hethmpp_c_ + pyr_c_	NA	NA
+DM_wco_c	Native	acald_c	ac_c	-0.0407448312049	0.559489578037	ALDD2y	acald_c + h2o_c + nadp_c --> ac_c + 2.0 h_c + nadph_c	nan	0.0
+DM_wco_c	Native	acald_c	ac_c	-0.0407448312049	0.559489578037	ALDD2x	acald_c + h2o_c + nad_c --> ac_c + 2.0 h_c + nadh_c	nan	0.0
+DM_wco_c	Universal model	acald_c	ac_c	-0.0407448312049	0.559489578037	ACAFDOR	acald_c_ + fdxo_42_c_ + h2o_c_ --> ac_c_ + fdxr_42_c_ + 3.0 h_c_	NA	NA
+DM_wco_c	Native	acald_c	accoa_c	-0.0407448312049	0.590740577761	ACALD	acald_c + coa_c + nad_c <=> accoa_c + h_c + nadh_c	-0.999230103574	-0.0576218928866
+DM_wco_c	Universal model	gsn_c	r1p_c	0.0	4.96086099121e-05	PUNP3	gsn_c_ + pi_c_ --> gua_c_ + r1p_c_	NA	NA
+DM_wco_c	Universal model	gsn_c	r1p_c	0.0	4.96086099121e-05	PUNP3_1	gsn_c_ + h_c_ + pi_c_ --> gua_c_ + r1p_c_	NA	NA
+DM_wco_c	Native	hmgcoa_c	accoa_c	-0.00124504713384	0.590740577761	HMGL	hmgcoa_c --> acac_c + accoa_c	-0.40618119723	-0.00176076254247
+DM_wco_c	Universal model	hmgcoa_c	accoa_c	-0.00124504713384	0.590740577761	HMGL_2	hmgcoa_c_ --> acac_c_ + accoa_c_ + h_c_	NA	NA
+DM_wco_c	Universal model	hmgcoa_c	accoa_c	-0.00124504713384	0.590740577761	HMGCOAS	coa_c_ + h_c_ + hmgcoa_c_ --> aacoa_c_ + accoa_c_ + h2o_c_	NA	NA

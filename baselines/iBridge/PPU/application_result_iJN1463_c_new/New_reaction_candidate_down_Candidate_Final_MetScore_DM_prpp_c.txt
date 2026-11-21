@@ -1,0 +1,100 @@
+Target	Gene source	Negative metabolite	Positive metabolite	Negative score	Positive score	Reaction	Equation	Corr	Cov
+DM_prpp_c	Native_down	pyr_c	cyst__L_c	-0.419934946173	0.0112162224537	CYSTL	cyst__L_c + h2o_c --> hcys__L_c + nh4_c + pyr_c	nan	0.0
+DM_prpp_c	Native_down	thf_c	hcys__L_c	-0.155939516914	0.0112162224537	METS	5mthf_c + hcys__L_c --> h_c + met__L_c + thf_c	-0.9845168939	-0.0163768300674
+DM_prpp_c	Native_down	met__L_c	hcys__L_c	-0.0597017848745	0.0112162224537	HCYSMT	amet_c + hcys__L_c --> ahcys_c + h_c + met__L_c	-0.457029493203	-0.000103790628678
+DM_prpp_c	Native_down	met__L_c	hcys__L_c	-0.0597017848745	0.0112162224537	HCYSMT2	hcys__L_c + mmet_c --> h_c + 2.0 met__L_c	nan	0.0
+DM_prpp_c	Native_down	met__L_c	hcys__L_c	-0.0597017848745	0.0112162224537	METS	5mthf_c + hcys__L_c --> h_c + met__L_c + thf_c	-0.9845168939	-0.0163768300674
+DM_prpp_c	Native_down	acg5p_c	acglu_c	0.0	7.01943997704e-15	ACGK	acglu_c + atp_c --> acg5p_c + adp_c	0.522232623903	9.92698721579e-15
+DM_prpp_c	Native_down	nicrnt_c	prpp_c	-0.000200042954674	0.655210066795	NAMNPP	atp_c + h2o_c + nac_c + prpp_c --> adp_c + nicrnt_c + pi_c + ppi_c	-0.997923593401	-2.61213569724e-05
+DM_prpp_c	Native_down	nicrnt_c	prpp_c	-0.000200042954674	0.655210066795	NNDPR	2.0 h_c + prpp_c + quln_c --> co2_c + nicrnt_c + ppi_c	-0.997923593403	-0.000266601831688
+DM_prpp_c	Native_down	ru5p__D_c	r5p_c	-0.00270240881411	1.14551794051	RPI	r5p_c <=> ru5p__D_c	0.999946311399	0.973462667459
+DM_prpp_c	Native_down	3dhsk_c	3dhq_c	-0.0336188733459	0.0274496951416	DHQTi_copy1	3dhq_c <=> 3dhsk_c + h2o_c	0.997923593401	0.0475442666375
+DM_prpp_c	Native_down	3dhsk_c	3dhq_c	-0.0336188733459	0.0274496951416	DHQTi_copy2	3dhq_c --> 3dhsk_c + h2o_c	8.7884725664e-17	2.73910036535e-33
+DM_prpp_c	Native_down	hxa_c	hxcoa_c	0.0	0.0179221148267	FACOAE60	h2o_c + hxcoa_c --> coa_c + h_c + hxa_c	nan	0.0
+DM_prpp_c	Native_down	R_3hhcoa_c	3ohcoa_c	-0.00013088923189	0.0179221148267	RHACOAR60	3ohcoa_c + h_c + nadph_c <=> R_3hhcoa_c + nadp_c	-0.290129426593	-0.000185105326907
+DM_prpp_c	Native_down	asn__L_c	asp__L_c	-0.0698215717897	0.406948191418	ASNS1	asp__L_c + atp_c + gln__L_c + h2o_c --> amp_c + asn__L_c + glu__L_c + h_c + ppi_c	-0.959417593322	-0.022414942147
+DM_prpp_c	Native_down	pran_c	prpp_c	-0.00642677091682	0.655210066795	ANPRT	anth_c + prpp_c --> ppi_c + pran_c	-0.997923593401	-0.00908882659283
+DM_prpp_c	Native_down	R_3hcddec5ecoa_c	3oddccoa_c	0.0	0.0297393355511	RHACOAR121d5	3oddccoa_c + h_c + nadph_c <=> R_3hcddec5ecoa_c + nadp_c	0.924898636115	0.0272888972233
+DM_prpp_c	Native_down	R_3hmrscoa_c	3otdcoa_c	0.0	0.00562536295763	RHACOAR140	3otdcoa_c + h_c + nadph_c <=> R_3hmrscoa_c + nadp_c	0.964877439124	0.00514307553299
+DM_prpp_c	Native_down	fdxo_22_c	fdxr_22_c	0.0	0.000112084152016	FE3DCITR2	fdxr_22_c + fe3dcit_c --> 2.0 cit_c + fdxo_22_c + fe2_c	-0.461582008504	-3.56557215609e-06
+DM_prpp_c	Native_down	fdxo_22_c	fdxr_22_c	0.0	0.000112084152016	FRDO4r	2.0 fdxr_22_c + h_c + nadp_c <=> 2.0 fdxo_22_c + nadph_c	nan	0.0
+DM_prpp_c	Native_down	fdxo_22_c	fdxr_22_c	0.0	0.000112084152016	FRDO7r	2.0 fdxr_22_c + h_c + nad_c <=> 2.0 fdxo_22_c + nadh_c	0.998282785504	0.000158510927908
+DM_prpp_c	Native_down	fdxo_22_c	fdxr_22_c	0.0	0.000112084152016	I2FE2SS2fdx	2.0 fdxr_22_c + 2.0 fe2_c + 2.0 iscssh_c + iscu_2fe2s_c --> 2.0 fdxo_22_c + 4.0 h_c + 2.0 iscs_c + iscu_2fe2s2_c	-0.997923593401	-5.22427139448e-05
+DM_prpp_c	Native_down	fdxo_22_c	fdxr_22_c	0.0	0.000112084152016	I2FE2SSfdx	2.0 fdxr_22_c + 2.0 fe2_c + 2.0 iscssh_c + iscu_c --> 2.0 fdxo_22_c + 4.0 h_c + 2.0 iscs_c + iscu_2fe2s_c	-0.997923593401	-5.22427139448e-05
+DM_prpp_c	Native_down	fdxo_22_c	fdxr_22_c	0.0	0.000112084152016	I4FE4SRfdx	2.0 fdxr_22_c + 4.0 h_c + iscu_2fe2s2_c --> 2.0 fdxo_22_c + iscu_4fe4s_c	-0.997923593401	-5.22427139448e-05
+DM_prpp_c	Native_down	asptrna_c	asp__L_c	0.0	0.406948191418	ASPTRS	asp__L_c + atp_c + trnaasp_c --> amp_c + asptrna_c + ppi_c	nan	0.0
+DM_prpp_c	Native_down	ptrc_c	agm_c	-0.0828277517891	0.0301574794972	AGMT	agm_c + h2o_c --> ptrc_c + urea_c	0.987781180914	0.0426491165119
+DM_prpp_c	Native_down	ptrc_c	orn_c	-0.0828277517891	0.00210023727827	ORNDC	h_c + orn_c --> co2_c + ptrc_c	-0.522232967867	-0.00343057855208
+DM_prpp_c	Native_down	ac_c	acorn_c	-0.0139088876993	7.01943997704e-15	ACODA	acorn_c + h2o_c --> ac_c + orn_c	0.522232623903	9.92698721579e-15
+DM_prpp_c	Native_down	dca_c	dcacoa_c	0.0	0.00112966177429	FACOAE100	dcacoa_c + h2o_c --> coa_c + dca_c + h_c	nan	0.0
+DM_prpp_c	Native_down	prbatp_c	prpp_c	-0.0104602339457	0.655210066795	ATPPRT	atp_c + prpp_c --> ppi_c + prbatp_c	-0.997923593401	-0.0147930047116
+DM_prpp_c	Native_down	3hbcoa__R_c	3hbcoa_c	0.0	0.0292666909579	HBCE	3hbcoa_c <=> 3hbcoa__R_c	nan	0.0
+DM_prpp_c	Native_down	2obut_c	cyst__L_c	-0.0202556095278	0.0112162224537	CYSTGL	cyst__L_c + h2o_c --> 2obut_c + cys__L_c + nh4_c	0.983468214946	0.0158621339126
+DM_prpp_c	Native_down	25aics_c	asp__L_c	-0.0432478721835	0.406948191418	PRASCSi_copy1	5aizc_c + asp__L_c + atp_c --> 25aics_c + adp_c + h_c + pi_c	-0.9541322867	-0.0611600095595
+DM_prpp_c	Native_down	25aics_c	asp__L_c	-0.0432478721835	0.406948191418	PRASCSi_copy2	5aizc_c + asp__L_c + atp_c --> 25aics_c + adp_c + h_c + pi_c	-0.174077655956	-1.71782628378e-06
+DM_prpp_c	Native_down	hx2coa_c	hxcoa_c	0.0	0.0179221148267	ACOAD2f	fad_c + hxcoa_c <=> fadh2_c + hx2coa_c	0.96172336054	0.0253456978543
+DM_prpp_c	Native_down	hx2coa_c	3hhcoa_c	0.0	0.0294804321785	ECOAH2	3hhcoa_c <=> h2o_c + hx2coa_c	0.959788080367	0.0255308031812
+DM_prpp_c	Native_down	R_3hdda_c	R_3hddcoa_c	0.0	0.00145713523481	RHACOAE120	R_3hddcoa_c + h2o_c --> R_3hdda_c + coa_c + h_c	nan	0.0
+DM_prpp_c	Native_down	fbac_kt_c	orn_c	-7.3234738851e-05	0.00210023727827	FBACS	24dab_c + 3hasp__L_c + asp__L_c + gly_c + n5horn_c + orn_c + ser__L_c --> fbac_kt_c + 6.0 h2o_c	-0.393693389154	-0.000103569560929
+DM_prpp_c	Native_down	fbac_kt_c	asp__L_c	-7.3234738851e-05	0.406948191418	FBACS	24dab_c + 3hasp__L_c + asp__L_c + gly_c + n5horn_c + orn_c + ser__L_c --> fbac_kt_c + 6.0 h2o_c	-0.393693389154	-0.000103569560929
+DM_prpp_c	Native_down	f6p_c	g6p_c	-0.00655465696557	0.0219223506954	PGI	g6p_c <=> f6p_c	0.888448431475	0.0310028856725
+DM_prpp_c	Native_down	Ncbmpts_c	agm_c	0.0	0.0301574794972	AGMDA	agm_c + h2o_c --> Ncbmpts_c + h_c + nh4_c	nan	0.0
+DM_prpp_c	Native_down	R_3hocoa_c	3oocoa_c	0.0	0.0179221148267	RHACOAR80	3oocoa_c + h_c + nadph_c <=> R_3hocoa_c + nadp_c	-0.394755206011	-5.98837708723e-06
+DM_prpp_c	Native_down	pro__L_c	orn_c	-0.0828277517891	0.00210023727827	ORNCD	orn_c --> nh4_c + pro__L_c	0.237577071433	0.00248419232267
+DM_prpp_c	Native_down	oaa_c	asp__L_c	-0.31693874709	0.406948191418	ASPO1	asp__L_c + h2o_c + o2_c --> h2o2_c + nh4_c + oaa_c	-0.494336167725	-0.0119579394471
+DM_prpp_c	Native_down	oaa_c	asp__L_c	-0.31693874709	0.406948191418	ASPTA	akg_c + asp__L_c <=> glu__L_c + oaa_c	0.927508353336	0.232143697344
+DM_prpp_c	Native_down	pram_c	prpp_c	-0.0432663427722	0.655210066795	GLUPRT	gln__L_c + h2o_c + prpp_c --> glu__L_c + ppi_c + pram_c	-0.954152907378	-0.0611878487427
+DM_prpp_c	Native_down	3hasp__L_c	asp__L_c	-7.32347388574e-05	0.406948191418	ASP3H	akg_c + asp__L_c + o2_c --> 3hasp__L_c + co2_c + succ_c	-0.393693389118	-0.00010356956092
+DM_prpp_c	Native_down	iscu_2fe2s_c	fdxr_22_c	-4.52435174388e-05	0.000112084152016	I2FE2SSfdx	2.0 fdxr_22_c + 2.0 fe2_c + 2.0 iscssh_c + iscu_c --> 2.0 fdxo_22_c + 4.0 h_c + 2.0 iscs_c + iscu_2fe2s_c	-0.997923593401	-5.22427139448e-05
+DM_prpp_c	Native_down	citr__L_c	orn_c	-9.62589358439e-05	0.00210023727827	OCBT	cbp_c + orn_c --> citr__L_c + h_c + pi_c	0.154769252747	0.00115352535125
+DM_prpp_c	Native_down	4pasp_c	asp__L_c	0.0	0.406948191418	ASPK	asp__L_c + atp_c <=> 4pasp_c + adp_c	-0.929357357925	-0.0298178477943
+DM_prpp_c	Native_down	g6p_B_c	g6p_c	0.0	0.0219223506954	G6PI	g6p_c <=> g6p_B_c	nan	0.0
+DM_prpp_c	Native_down	iscu_2fe2s2_c	fdxr_22_c	-3.6941177298e-05	0.000112084152016	I2FE2SS2fdx	2.0 fdxr_22_c + 2.0 fe2_c + 2.0 iscssh_c + iscu_2fe2s_c --> 2.0 fdxo_22_c + 4.0 h_c + 2.0 iscs_c + iscu_2fe2s2_c	-0.997923593401	-5.22427139448e-05
+DM_prpp_c	Native_down	iasp_c	asp__L_c	-0.000188515963072	0.406948191418	ASPO3	asp__L_c + q8_c --> h_c + iasp_c + q8h2_c	-0.997923593401	-0.0002666018317
+DM_prpp_c	Native_down	iasp_c	asp__L_c	-0.000188515963072	0.406948191418	ASPO5	asp__L_c + fum_c --> h_c + iasp_c + succ_c	nan	0.0
+DM_prpp_c	Native_down	iasp_c	asp__L_c	-0.000188515963072	0.406948191418	ASPO6	asp__L_c + o2_c --> h2o2_c + h_c + iasp_c	nan	0.0
+DM_prpp_c	Native_down	argsuc_c	asp__L_c	-9.6258935829e-05	0.406948191418	ARGSS	asp__L_c + atp_c + citr__L_c --> amp_c + argsuc_c + h_c + ppi_c	-0.406181197268	-0.00013613069257
+DM_prpp_c	Native_down	n5horn_c	orn_c	-7.32347388574e-05	0.00210023727827	ORN5O	nadh_c + o2_c + orn_c --> h2o_c + n5horn_c + nad_c	-0.393693389118	-0.00010356956092
+DM_prpp_c	Native_down	dd2coa_c	R_3hddcoa_c	0.0	0.00145713523481	RECOAH5	R_3hddcoa_c <=> dd2coa_c + h2o_c	0.669445720288	0.00206070041128
+DM_prpp_c	Native_down	dd2coa_c	ddcacoa_c	0.0	0.00325293084654	ACOAD5f	ddcacoa_c + fad_c <=> dd2coa_c + fadh2_c	0.914362344421	0.00460033892064
+DM_prpp_c	Native_down	dd2coa_c	3hddcoa_c	0.0	0.00293252195405	ECOAH5	3hddcoa_c <=> dd2coa_c + h2o_c	0.606971748823	0.00253963850936
+DM_prpp_c	Native_down	accoa_c	3oddccoa_c	-0.285231178378	0.0297393355511	KAT23	3oddccoa_c + coa_c --> accoa_c + decoa_c	0.990098227032	0.0242211429346
+DM_prpp_c	Native_down	accoa_c	3otdcoa_c	-0.285231178378	0.00562536295763	ACACT9	3otdcoa_c + coa_c --> accoa_c + ddcacoa_c	0.914362344421	0.00460033892064
+DM_prpp_c	Native_down	accoa_c	3ohcoa_c	-0.285231178378	0.0179221148267	ACACT11	3ohcoa_c + coa_c --> accoa_c + btcoa_c	0.96172336054	0.0253456978543
+DM_prpp_c	Native_down	accoa_c	3oddcoa_c	-0.285231178378	0.00112966177429	ACACT10	3oddcoa_c + coa_c --> accoa_c + dcacoa_c	0.337623642785	0.0015975830021
+DM_prpp_c	Native_down	accoa_c	3oocoa_c	-0.285231178378	0.0179221148267	ACACT8	3oocoa_c + coa_c --> accoa_c + hxcoa_c	0.96172336054	0.0253456978543
+DM_prpp_c	Native_down	accoa_c	3odcoa_c	-0.285231178378	0.0179263492487	ACACT13	3odcoa_c + coa_c --> accoa_c + occoa_c	0.961817702591	0.0253516862313
+DM_prpp_c	Native_down	cys__L_c	cyst__L_c	-0.0480294096395	0.0112162224537	CYSTGL	cyst__L_c + h2o_c --> 2obut_c + cys__L_c + nh4_c	0.983468214946	0.0158621339126
+DM_prpp_c	Native_down	oc2coa_c	3hocoa_c	0.0	0.0292736057402	ECOAH3	3hocoa_c <=> h2o_c + oc2coa_c	0.961817702591	0.0253516862313
+DM_prpp_c	Native_down	oc2coa_c	occoa_c	0.0	0.0179263492487	ACOAD3f	fad_c + occoa_c <=> fadh2_c + oc2coa_c	0.961817702591	0.0253516862313
+DM_prpp_c	Native_down	6pgl_c	g6p_c	0.0	0.0219223506954	G6PDH2r	g6p_c + nadp_c --> 6pgl_c + h_c + nadph_c	nan	0.0
+DM_prpp_c	Native_down	cbasp_c	asp__L_c	0.0	0.406948191418	ASPCT	asp__L_c + cbp_c --> cbasp_c + h_c + pi_c	-0.997968223583	-0.0388621156012
+DM_prpp_c	Native_down	b2coa_c	btcoa_c	0.0	0.0179221148267	ACOAD1f	btcoa_c + fad_c <=> b2coa_c + fadh2_c	0.96172336054	0.0253456978543
+DM_prpp_c	Native_down	b2coa_c	3hbcoa_c	0.0	0.0292666909579	ECOAH1	3hbcoa_c <=> b2coa_c + h2o_c	0.96172336054	0.0253456978543
+DM_prpp_c	Native_down	acg5sa_c	acorn_c	0.0	7.01943997704e-15	ACOTA	acorn_c + akg_c <=> acg5sa_c + glu__L_c	nan	0.0
+DM_prpp_c	Native_down	R_3hdcoa_c	3odcoa_c	0.0	0.0179263492487	RHACOAR100	3odcoa_c + h_c + nadph_c <=> R_3hdcoa_c + nadp_c	-0.394755206057	-0.000467039705329
+DM_prpp_c	Native_down	octa_c	occoa_c	0.0	0.0179263492487	FACOAE80	h2o_c + occoa_c --> coa_c + h_c + octa_c	nan	0.0
+DM_prpp_c	Native_down	C120aPHA_c	R_3hddcoa_c	0.0	0.00145713523481	PHAP2C120	PHAg_c + R_3hddcoa_c --> C120aPHA_c + coa_c	nan	0.0
+DM_prpp_c	Native_down	fum_c	asp__L_c	-0.000108395979327	0.406948191418	ASPT	asp__L_c --> fum_c + nh4_c	0.964313957681	0.472711246241
+DM_prpp_c	Native_down	r15bp_c	r1p_c	-7.66050048977e-15	5.85443100767e-05	R1PK	atp_c + r1p_c --> adp_c + h_c + r15bp_c	-0.568535243614	-1.08335836872e-14
+DM_prpp_c	Native_down	ddca_c	ddcacoa_c	0.0	0.00325293084654	FACOAE120	ddcacoa_c + h2o_c --> coa_c + ddca_c + h_c	nan	0.0
+DM_prpp_c	Native_down	glu__L_c	acorn_c	-0.207735085638	7.01943997704e-15	ACOTA	acorn_c + akg_c <=> acg5sa_c + glu__L_c	nan	0.0
+DM_prpp_c	Native_down	glu__L_c	4abut_c	-0.207735085638	0.0304873734416	ABTA	4abut_c + akg_c --> glu__L_c + sucsal_c	0.982330228059	0.0431156570023
+DM_prpp_c	Native_down	glu__L_c	asp__L_c	-0.207735085638	0.406948191418	ASNS1	asp__L_c + atp_c + gln__L_c + h2o_c --> amp_c + asn__L_c + glu__L_c + h_c + ppi_c	-0.959417593322	-0.022414942147
+DM_prpp_c	Native_down	glu__L_c	asp__L_c	-0.207735085638	0.406948191418	ASPTA	akg_c + asp__L_c <=> glu__L_c + oaa_c	0.927508353336	0.232143697344
+DM_prpp_c	Native_down	glu__L_c	prpp_c	-0.207735085638	0.655210066795	GLUPRT	gln__L_c + h2o_c + prpp_c --> glu__L_c + ppi_c + pram_c	-0.954152907378	-0.0611878487427
+DM_prpp_c	Native_down	succ_c	asp__L_c	-0.427490310447	0.406948191418	ASP3H	akg_c + asp__L_c + o2_c --> 3hasp__L_c + co2_c + succ_c	-0.393693389118	-0.00010356956092
+DM_prpp_c	Native_down	succ_c	asp__L_c	-0.427490310447	0.406948191418	ASPO5	asp__L_c + fum_c --> h_c + iasp_c + succ_c	nan	0.0
+DM_prpp_c	Native_down	succ_c	sucsal_c	-0.427490310447	0.0304873734416	SSALx	h2o_c + nad_c + sucsal_c --> 2.0 h_c + nadh_c + succ_c	0.982330228059	0.0431156570023
+DM_prpp_c	Native_down	succ_c	sucsal_c	-0.427490310447	0.0304873734416	SSALy	h2o_c + nadp_c + sucsal_c --> 2.0 h_c + nadph_c + succ_c	nan	0.0
+DM_prpp_c	Native_down	ahcys_c	hcys__L_c	-0.000437336198756	0.0112162224537	HCYSMT	amet_c + hcys__L_c --> ahcys_c + h_c + met__L_c	-0.457029493203	-0.000103790628678
+DM_prpp_c	Native_down	g3p_c	r5p_c	-0.0277742520693	1.14551794051	TKT1	r5p_c + xu5p__D_c <=> g3p_c + s7p_c	-0.998236105351	-0.0497332022986
+DM_prpp_c	Native_down	iscu_4fe4s_c	fdxr_22_c	-3.6941177298e-05	0.000112084152016	I4FE4SRfdx	2.0 fdxr_22_c + 4.0 h_c + iscu_2fe2s2_c --> 2.0 fdxo_22_c + iscu_4fe4s_c	-0.997923593401	-5.22427139448e-05
+DM_prpp_c	Native_down	arg__L_c	orn_c	-0.0683731594059	0.00210023727827	ARGORNt7pp	arg__L_p + orn_c <=> arg__L_c + orn_p	nan	0.0
+DM_prpp_c	Native_down	dc2coa_c	3hdcoa_c	0.0	0.0298128967393	ECOAH4	3hdcoa_c <=> dc2coa_c + h2o_c	0.968185345201	0.0258187259367
+DM_prpp_c	Native_down	dc2coa_c	dcacoa_c	0.0	0.00112966177429	ACOAD4f	dcacoa_c + fad_c <=> dc2coa_c + fadh2_c	0.337623642783	0.00159758300209
+DM_prpp_c	Native_down	dc2coa_c	decoa_c	0.0	0.0171269344171	23CTI1	decoa_c --> dc2coa_c	0.990098227032	0.0242211429346
+DM_prpp_c	Native_down	cit_c	fdxr_22_c	-0.294104126712	0.000112084152016	FE3DCITR2	fdxr_22_c + fe3dcit_c --> 2.0 cit_c + fdxo_22_c + fe2_c	-0.461582008504	-3.56557215609e-06
+DM_prpp_c	Native_down	dcamp_c	asp__L_c	-0.0345542713557	0.406948191418	ADSS	asp__L_c + gtp_c + imp_c --> dcamp_c + gdp_c + 2.0 h_c + pi_c	-0.926750642859	-0.0488671191892
+DM_prpp_c	Native_down	s7p_c	r5p_c	-0.0287134777348	1.14551794051	TKT1	r5p_c + xu5p__D_c <=> g3p_c + s7p_c	-0.998236105351	-0.0497332022986
+DM_prpp_c	Native_down	aacoa_c	3hbcoa_c	0.0	0.0292666909579	HACD1i	3hbcoa_c + nad_c --> aacoa_c + h_c + nadh_c	0.96172336054	0.0253456978543
